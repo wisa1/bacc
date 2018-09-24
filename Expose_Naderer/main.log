@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.9.3)  20 SEP 2018 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.9.3)  24 SEP 2018 17:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -1681,7 +1681,19 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+[2
+
+
+
+])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1690,11 +1702,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 59.
- [2
-
-
-
-]
+ [3]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1712,7 +1720,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 69.
-[3
+[4
 
 
 ]
@@ -1727,10 +1735,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25772 strings out of 493305
- 401382 string characters out of 3142329
- 945374 words of memory out of 3000000
- 28859 multiletter control sequences out of 15000+200000
+ 25774 strings out of 493305
+ 400126 string characters out of 3142329
+ 948374 words of memory out of 3000000
+ 28860 multiletter control sequences out of 15000+200000
  26324 words of font info for 23 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  67i,11n,96p,1098b,2269s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1739,9 +1747,9 @@ type1/public/lm/lmr10.pfb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
 <D:/Programme/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MiKTeX/fonts
 /type1/public/lm/lmri10.pfb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmss10.p
 fb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
-Output written on main.pdf (4 pages, 134913 bytes).
+Output written on main.pdf (5 pages, 140394 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
