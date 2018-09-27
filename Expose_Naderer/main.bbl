@@ -16,5 +16,116 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DuplagaMarzie2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2c067ca04dff06ff70cfdc4b74422694}{%
+           family={A.\bibnamedelimi Duplaga},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e3d5c792720e5db006da8d4314437500}{%
+           family={Astani},
+           familyi={A\bibinitperiod},
+           given={Marzie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{fullhash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{bibnamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authorbibnamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authornamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authorfullhash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IS Management}
+      \field{month}{06}
+      \field{title}{Implementing ERP in Manufacturing}
+      \field{volume}{20}
+      \field{year}{2003}
+      \field{pages}{68\bibrangedash 75}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://www.dsg.univr.it/documenti/OccorrenzaIns/matdid/matdid965805.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.dsg.univr.it/documenti/OccorrenzaIns/matdid/matdid965805.pdf
+      \endverb
+    \endentry
+    \entry{WongTein2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8f463dd18a5ac143be7b3b9f0122e8d7}{%
+           family={Bernard\bibnamedelima Wong},
+           familyi={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Dr},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4e8b5eb145ce7a7573e7c5101a4742e7}{%
+           family={Tein},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \strng{fullhash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \strng{bibnamehash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \strng{authorbibnamehash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \strng{authornamehash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \strng{authorfullhash}{ef3945d61e4530a7ad7797f19a1263ba}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Critical Success Factors for ERP Projects}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/229022123_Critical_Success_Factors_for_ERP_Projects
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/229022123_Critical_Success_Factors_for_ERP_Projects
+      \endverb
+    \endentry
+    \entry{BrummelPatterns2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00091a19e101b16a3f4fc16c3ab2c24b}{%
+           family={Brummel},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{fullhash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{bibnamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authorbibnamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authornamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authorfullhash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{subtitle}{Create solutions that are easy to maintain, are quick to upgrade, and follow proven concepts and design}
+      \field{title}{Learning Dynamics NAV Patterns}
+      \field{year}{2015}
+      \field{pages}{135\bibrangedash 136}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-us/p/learning-dynamics-nav-patterns/fgqpf3h0qc1j?activetab=pivot%3aoverviewtab
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/p/learning-dynamics-nav-patterns/fgqpf3h0qc1j?activetab=pivot%3aoverviewtab
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
