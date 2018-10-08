@@ -125,6 +125,37 @@
       \verb https://www.microsoft.com/en-us/p/learning-dynamics-nav-patterns/fgqpf3h0qc1j?activetab=pivot%3aoverviewtab
       \endverb
     \endentry
+    \entry{Sah2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0a280112ed78d809cbcc51ec83460b14}{%
+           family={Sah},
+           familyi={S\bibinitperiod},
+           given={Rabindra},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{0a280112ed78d809cbcc51ec83460b14}
+      \strng{fullhash}{0a280112ed78d809cbcc51ec83460b14}
+      \strng{bibnamehash}{0a280112ed78d809cbcc51ec83460b14}
+      \strng{authorbibnamehash}{0a280112ed78d809cbcc51ec83460b14}
+      \strng{authornamehash}{0a280112ed78d809cbcc51ec83460b14}
+      \strng{authorfullhash}{0a280112ed78d809cbcc51ec83460b14}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Mastering Microsoft Dynamics NAV 2016}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://books.google.at/books?id=oLkrDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.at/books?id=oLkrDwAAQBAJ
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
