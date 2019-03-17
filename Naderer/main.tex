@@ -1,0 +1,71 @@
+% !TeX document-id = {be34c84b-deee-4ae7-a020-3510ae5ecf87}
+%%% File encoding: UTF-8
+%%% äöüÄÖÜß  <-- keine deutschen Umlaute hier? UTF-faehigen Editor verwenden!
+
+%%% Magic Comments zum Setzen der korrekten Parameter in kompatiblen IDEs
+% !TeX encoding = utf8
+% !TeX program = pdflatex 
+% !TeX spellcheck = de_DE
+% !BIB program = biber
+
+\documentclass[bachelor,german]{hgbthesis}
+% Zulässige Optionen in [..]: 
+%   Typ der Arbeit: diploma, master (default), bachelor, internship 
+%   Hauptsprache: german (default), english
+%%%----------------------------------------------------------
+
+\RequirePackage[utf8]{inputenc}		% bei der Verw. von lualatex oder xelatex entfernen!
+
+\graphicspath{{images/}}    % Verzeichnis mit Bildern und Grafiken
+\logofile{}				% Logo-Datei = images/logo.pdf (\logofile{}, wenn kein Logo gewünscht)
+\bibliography{references}  	% Biblatex-Literaturdatei (references.bib)
+
+%%%----------------------------------------------------------
+\begin{document}
+%%%----------------------------------------------------------
+
+\begin{center}
+	\begin{Huge}
+	Erweiterungsentwicklung für Microsoft Dynamics 365 Business Central unter Verwendung von ExtensionsV2
+	\end{Huge}
+
+	\begin{Large}
+	(Exposé) 
+	\bigbreak
+	Johannes Naderer
+	
+	(se0307)
+	\end{Large}	
+\end{center}
+\begin{center}
+	
+\end{center}
+%%%----------------------------------------------------------
+\frontmatter                    % Titelei (röm. Seitenzahlen)
+%%%----------------------------------------------------------
+
+%\maketitle
+%\tableofcontents
+
+%%%----------------------------------------------------------
+\mainmatter          % Hauptteil (ab hier arab. Seitenzahlen)
+%%%----------------------------------------------------------
+
+\include{chapters/01kurzfassung}
+\include{chapters/02abstract}
+\include{chapters/03einleitung}
+\include{chapters/04stand-der-technik}
+\include{chapters/05vergleich}
+\include{chapters/06tests}
+\include{chapters/07diskussion}
+
+%%%----------------------------------------------------------
+\MakeBibliography                        % Quellenverzeichnis
+%%%----------------------------------------------------------
+
+%%% Messbox zur Druckkontrolle ------------------------------
+
+
+%%%----------------------------------------------------------
+\end{document}
+%%%----------------------------------------------------------
