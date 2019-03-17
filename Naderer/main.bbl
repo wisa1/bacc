@@ -16,5 +16,211 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DuplagaMarzie2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=59ba0b99b7a8a52d8cacd96d40ce784a}{%
+           family={A.\bibnamedelimi Duplaga},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e3d5c792720e5db006da8d4314437500}{%
+           family={Astani},
+           familyi={A\bibinitperiod},
+           given={Marzie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{fullhash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{bibnamehash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{authorbibnamehash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{authornamehash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{authorfullhash}{b609183f2087b69e4a6b8302cf236581}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IS Management}
+      \field{month}{06}
+      \field{title}{Implementing ERP in Manufacturing}
+      \field{volume}{20}
+      \field{year}{2003}
+      \field{pages}{68\bibrangedash 75}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://www.dsg.univr.it/documenti/OccorrenzaIns/matdid/matdid965805.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.dsg.univr.it/documenti/OccorrenzaIns/matdid/matdid965805.pdf
+      \endverb
+    \endentry
+    \entry{WongTein2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b1a81d12326f41edb3b96d1bd18cd6ad}{%
+           family={Bernard\bibnamedelima Wong},
+           familyi={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Dr},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4e8b5eb145ce7a7573e7c5101a4742e7}{%
+           family={Tein},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{fullhash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{bibnamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{authorbibnamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{authornamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{authorfullhash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Critical Success Factors for ERP Projects}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/229022123_Critical_Success_Factors_for_ERP_Projects
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/229022123_Critical_Success_Factors_for_ERP_Projects
+      \endverb
+    \endentry
+    \entry{BrummelPatterns2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00091a19e101b16a3f4fc16c3ab2c24b}{%
+           family={Brummel},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{fullhash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{bibnamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authorbibnamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authornamehash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \strng{authorfullhash}{00091a19e101b16a3f4fc16c3ab2c24b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{subtitle}{Create solutions that are easy to maintain, are quick to upgrade, and follow proven concepts and design}
+      \field{title}{Learning Dynamics NAV Patterns}
+      \field{year}{2015}
+      \field{pages}{135\bibrangedash 136}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-us/p/learning-dynamics-nav-patterns/fgqpf3h0qc1j?activetab=pivot%3aoverviewtab
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/p/learning-dynamics-nav-patterns/fgqpf3h0qc1j?activetab=pivot%3aoverviewtab
+      \endverb
+    \endentry
+    \entry{DesignAndImplementationGayer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b97c93f61a834fe2449a14d1c4038a59}{%
+           family={Gayer},
+           familyi={G\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {mbst books}%
+      }
+      \strng{namehash}{b97c93f61a834fe2449a14d1c4038a59}
+      \strng{fullhash}{b97c93f61a834fe2449a14d1c4038a59}
+      \strng{bibnamehash}{b97c93f61a834fe2449a14d1c4038a59}
+      \strng{authorbibnamehash}{b97c93f61a834fe2449a14d1c4038a59}
+      \strng{authornamehash}{b97c93f61a834fe2449a14d1c4038a59}
+      \strng{authorfullhash}{b97c93f61a834fe2449a14d1c4038a59}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{Microsoft Dynamics NAV - Einführung in Design und Programmierung}
+      \field{year}{2016}
+    \endentry
+    \entry{DynamicsNAV2018Anwenderbuch}{book}{}
+      \name{author}{1}{}{%
+        {{hash=993dbdf84758ba16435c08c775b68b86}{%
+           family={Michaela\bibnamedelima Gayer},
+           familyi={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Jürgen\bibnamedelima Ebert},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           suffix={Christian\bibnamedelima Hauptmann},
+           suffixi={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Carl Hanser Verlag GmbH Co KG}%
+      }
+      \strng{namehash}{993dbdf84758ba16435c08c775b68b86}
+      \strng{fullhash}{993dbdf84758ba16435c08c775b68b86}
+      \strng{bibnamehash}{993dbdf84758ba16435c08c775b68b86}
+      \strng{authorbibnamehash}{993dbdf84758ba16435c08c775b68b86}
+      \strng{authornamehash}{993dbdf84758ba16435c08c775b68b86}
+      \strng{authorfullhash}{993dbdf84758ba16435c08c775b68b86}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{Microsoft Dynamics NAV 2018: Das Anwenderbuch zur Abwicklung von Geschäftsprozessen}
+      \field{year}{2018}
+    \endentry
+    \entry{doi:10.1002/smr.239}{article}{}
+      \name{author}{3}{}{%
+        {{hash=214d4b6802de2b4291892a10aaa39450}{%
+           family={Nah},
+           familyi={N\bibinitperiod},
+           given={Fiona\bibnamedelima Fui-Hoon},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=69ef65ff81329e31a073a99b94c5e0d4}{%
+           family={Faja},
+           familyi={F\bibinitperiod},
+           given={Silvana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f98af1925cf354989f62506bf062897e}{%
+           family={Cata},
+           familyi={C\bibinitperiod},
+           given={Teuta},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{fullhash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{bibnamehash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{authorbibnamehash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{authornamehash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{authorfullhash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Software Maintenance and Evolution: Research and Practice}
+      \field{number}{6}
+      \field{title}{Characteristics of ERP software maintenance: a multiple case study}
+      \field{volume}{13}
+      \field{year}{2001}
+      \field{pages}{399\bibrangedash 414}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.239
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.239
+      \endverb
+      \keyw{enterprise resource planning,software maintenance lifecycle,maintenance trends}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

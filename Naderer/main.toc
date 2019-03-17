@@ -1,44 +1,38 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Erkl\"arung}{iii}{chapter*.1}
-\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Kurzfassung}{1}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Vorwort}{v}{chapter*.3}
+\contentsline {chapter}{\numberline {2}Abstract}{2}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Kurzfassung}{vi}{chapter*.4}
+\contentsline {chapter}{\numberline {3}Einleitung}{3}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abstract}{vii}{chapter*.5}
-\babel@toc {english}{}
-\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {3.1}Motivation}{3}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {section}{\numberline {3.2}Zielsetzung}{4}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Die Abschlussarbeit}{2}{chapter.2}
+\contentsline {chapter}{\numberline {4}Stand der Technik}{5}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Zum Arbeiten mit La\-TeX\xspace }{3}{chapter.3}
+\contentsline {section}{\numberline {4.1}ERP: Definition und \IeC {\"U}bersicht}{5}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Abbildungen, Tabellen, Quellcode}{4}{chapter.4}
+\contentsline {section}{\numberline {4.2}Geschichte und Grundarchitektur Dynamics 365 Business Central}{7}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Mathem.\ Formeln etc.}{5}{chapter.5}
+\contentsline {subsection}{\numberline {4.2.1}Geschichte}{7}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Umgang mit Literatur}{6}{chapter.6}
+\contentsline {subsection}{\numberline {4.2.2}3-Schichten Architektur}{7}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Drucken der Abschlussarbeit}{7}{chapter.7}
+\contentsline {section}{\numberline {4.3}Objektarten in Business Central}{8}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Schlussbemerkungen}{8}{chapter.8}
+\contentsline {chapter}{\numberline {5}Vergleich}{9}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technische Informationen}{9}{appendix.A}
+\contentsline {section}{\numberline {5.1}Aufgabenstellung}{9}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Inhalt der CD-ROM/DVD}{10}{appendix.B}
+\contentsline {section}{\numberline {5.2}Entwicklungsprozess}{9}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Fragebogen}{11}{appendix.C}
+\contentsline {chapter}{\numberline {6}Tests und Evaluierung}{10}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}La\-TeX\xspace -Quellkode}{12}{appendix.D}
+\contentsline {chapter}{\numberline {7}Diskussion}{11}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{13}{appendix*.6}
+\contentsline {chapter}{Quellenverzeichnis}{12}{chapter*.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{13}{section*.7}
+\contentsline {section}{Literatur}{12}{section*.5}% 
