@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  17 MAR 2019 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  19 MAR 2019 16:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1551,13 +1551,32 @@ File: images/3TierArchitecture.png Graphic file (type png)
 <use images/3TierArchitecture.png>
 Package pdftex.def Info: images/3TierArchitecture.png  used on input line 40.
 (pdftex.def)             Requested size: 284.52756pt x 208.74638pt.
- [7 <./images/3TierArchitecture.png>])
-[8]
+ [7 <./images/3TierArchitecture.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+\T1/lmr/m/n/10.95 nut-zer-schicht.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+[8]) [9]
 \openout2 = `chapters/05vergleich.aux'.
 
  (chapters/05vergleich.tex
 Kapitel 5.
-) [9
+) [10
 
 
 
@@ -1566,7 +1585,7 @@ Kapitel 5.
 
  (chapters/06tests.tex
 Kapitel 6.
-) [10
+) [11
 
 
 
@@ -1575,13 +1594,13 @@ Kapitel 6.
 
  (chapters/07diskussion.tex
 Kapitel 7.
-) [11
+) [12
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [12
+ [13
 
 
 ]
@@ -1598,9 +1617,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25820 strings out of 492946
- 418094 string characters out of 3125378
- 979892 words of memory out of 3000000
+ 25821 strings out of 492946
+ 418101 string characters out of 3125378
+ 979896 words of memory out of 3000000
  29132 multiletter control sequences out of 15000+200000
  59141 words of font info for 48 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -1617,9 +1636,9 @@ MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Users/naderer/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/naderer/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (14 pages, 349756 bytes).
+Output written on main.pdf (15 pages, 352375 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
