@@ -23,16 +23,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Objektarten in Business Central}{9}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Vergleich}{10}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Vergleich}{12}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Aufgabenstellung}{10}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Aufgabenstellung}{12}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Entwicklungsprozess}{10}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Entwicklungsprozess}{12}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Tests und Evaluierung}{11}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Tests und Evaluierung}{13}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{12}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Diskussion}{14}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{13}{chapter*.4}% 
+\contentsline {chapter}{Quellenverzeichnis}{15}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{13}{section*.5}% 
+\contentsline {section}{Literatur}{15}{section*.7}% 
