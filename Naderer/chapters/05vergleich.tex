@@ -76,6 +76,7 @@ Visual Studio Code in Kombination mit AL ist rein textbasiert. Die aus dem Devel
 \subsection{Grundfunktionalität}
 Um die Grundfunktionalität der Treuepunkterweiterung, das Sammeln und Einlösen von Treuepunkten abzubilden, sind einige Änderungen und Ergänzungen an der Standard-Tabellenstruktur von Dynamics 365 Business Central nötig. 
 
+\pagebreak
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=130mm]{images/Tables}
@@ -84,14 +85,17 @@ Um die Grundfunktionalität der Treuepunkterweiterung, das Sammeln und Einlösen
 \end{figure}
 
 Es wird eine neue Tabelle \textit{Loyalty Point Entry} eingeführt, in der alle Transaktionen betreffend Treuepunkten gespeichert werden. Um diverse Auswertungen zu ermöglichen, werden neben der betroffenen Punktezahl, und dem zugehörigen Kunden auch die Dokumentennummern und die Transaktionsart (\textit{Entry Type}) gespeichert. Die Transaktionsart kann dabei einen von drei Werten annehmen: Verdienst, Einlösung und Marketing. Um die Treuepunkterweiterung konfigurierbar zu machen wird zusätzlich auch eine Setup-Tabelle \textit{Loyalty Point Entry} erstellt. Diese folgt dem in Dynamics 365 Business Central oft gebrauchten Softwaremuster der Setup-Tabelle. Dabei handelt es sich um eine Tabelle mit einem Primärschlüssel \textit{Primary Key}, in der maximal ein Datensatz gespeichert werden kann. In Tabellen dieser Art werden Konfigurationen getroffen, um andere Bereiche der Geschäftslogik zu parametrisieren.
+
 \begin{itemize}
 	\item \textit{Discount per Point}: Bestimmt für wieviele Währungseinheiten ein Treuepunkt eingelöst werden kann.
 	\item \textit{Turnover for Point}: Definiert, wieviel Nettoumsatz zur Vergabe eines Treuepunktes führt.
 \end{itemize}
 
-Bei Eingabe einer neuen Verkaufsrechnung an Kunden müssen die konfigurierten Parameter abgefragt werden, um entsprechend Rechnungsrabatte zu erteilen. Wird die Rechnung danach gebucht, muss zur Behandlung der Treuepunkte in die Buchungslogik eingegriffen werden. Einerseits muss vor dem Buchen geprüft werden, ob der Kunde auch genug verfügbare Treuepunkte hat, um den Rechnungsrabatt mit seinem Punktekonto ausgleichen zu können. Diese zusätzliche Prüfung ist wichtig, da Erfassung und Verbuchung der Rechnung nicht zwangsweise zum selben Zeitpunkt erfolgen müssen. Andererseits muss nach erfolgreichem Verbuchen der Rechnung das Treuepunktekonto des Kunden angepasst werden, dabei müssen sowohl eingelöste, als auch durch die Rechnung verdiente Punkte berücksichtigt werden.
+Bei Eingabe einer neuen Verkaufsrechnung an Kunden müssen die konfigurierten Parameter abgefragt werden, um entsprechend Rechnungsrabatte zu erteilen. Wird die Rechnung danach gebucht, muss zur Behandlung der Treuepunkte in die Buchungslogik eingegriffen werden. Einerseits muss vor dem Buchen geprüft werden, ob der Kunde auch genug verfügbare Treuepunkte hat, um den Rechnungsrabatt mit seinem Punktekonto ausgleichen zu können. Diese zusätzliche Prüfung ist wichtig, da Erfassung und Verbuchung der Rechnung nicht zwangsweise zum selben Zeitpunkt erfolgen müssen. Andererseits muss nach erfolgreichem Verbuchen der Rechnung das Treuepunktekonto des Kunden angepasst werden, dabei müssen sowohl eingelöste, als auch durch die Rechnung verdiente Punkte berücksichtigt werden. Vorbereitete (\textit{ungebuchte}) Rechnungen sind Datensätze der Tabelle \textit{Sales Header}, und werden von der Buchungsroutine zu Datensätzen der Tabelle \textit{Sales Invoice Header} konvertiert. In beiden Tabellen werden die nötigen Felder zur Eingabe und Speicherung der notwendigen Daten für die Rabattvergabe hinzugefügt.
 
 \subsubsection{C/AL}
+
+
 \subsubsection{AL}
 
 \subsection{Datenträgerexport}
