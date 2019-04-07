@@ -1,0 +1,26 @@
+{
+  "id": "4ac12a3f-3257-44fa-89fc-f7bc457662f7",
+  "name": "AL",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AL.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}

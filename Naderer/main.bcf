@@ -2003,6 +2003,7 @@
     <bcf:citekey order="6">DynamicsNAV2018Anwenderbuch</bcf:citekey>
     <bcf:citekey order="7">DynamicsNAV2018Anwenderbuch</bcf:citekey>
     <bcf:citekey order="8">DesignAndImplementationGayer</bcf:citekey>
+    <bcf:citekey order="9">KahlertGiza2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

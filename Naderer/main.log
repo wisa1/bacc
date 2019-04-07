@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  1 APR 2019 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  7 APR 2019 16:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -1488,9 +1488,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 26.
-Package tocbasic Info: Using my definition of `\numberline' on input line 38.
-Package tocbasic Info: Using my definition of `\numberline' on input line 40.
-Package tocbasic Info: Using my definition of `\numberline' on input line 42.
+Package tocbasic Info: Using my definition of `\numberline' on input line 62.
+Package tocbasic Info: Using my definition of `\numberline' on input line 64.
+Package tocbasic Info: Using my definition of `\numberline' on input line 66.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1540,13 +1540,13 @@ Kapitel 4.
 
 
 ]
-<images/ERPModules.png, id=153, 505.89pt x 525.965pt>
+<images/ERPModules.png, id=173, 505.89pt x 525.965pt>
 File: images/ERPModules.png Graphic file (type png)
 <use images/ERPModules.png>
 Package pdftex.def Info: images/ERPModules.png  used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 207.07573pt.
  [6 <./images/ERPModules.png>]
-<images/3TierArchitecture.png, id=162, 644.4075pt x 472.76625pt>
+<images/3TierArchitecture.png, id=182, 644.4075pt x 472.76625pt>
 File: images/3TierArchitecture.png Graphic file (type png)
 <use images/3TierArchitecture.png>
 Package pdftex.def Info: images/3TierArchitecture.png  used on input line 40.
@@ -1576,7 +1576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-<images/TableExtenison.png, id=175, 753.81625pt x 91.34125pt>
+<images/TableExtenison.png, id=195, 753.81625pt x 91.34125pt>
 File: images/TableExtenison.png Graphic file (type png)
 <use images/TableExtenison.png>
 Package pdftex.def Info: images/TableExtenison.png  used on input line 94.
@@ -1662,12 +1662,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<images/ObjectDesigner.png, id=196, 734.745pt x 473.51906pt>
+<images/ObjectDesigner.png, id=216, 734.745pt x 473.51906pt>
 File: images/ObjectDesigner.png Graphic file (type png)
 <use images/ObjectDesigner.png>
 Package pdftex.def Info: images/ObjectDesigner.png  used on input line 28.
 (pdftex.def)             Requested size: 369.88582pt x 238.38463pt.
-<images/TableDesigner.png, id=197, 705.38531pt x 495.35063pt>
+<images/TableDesigner.png, id=217, 705.38531pt x 495.35063pt>
 File: images/TableDesigner.png Graphic file (type png)
 <use images/TableDesigner.png>
 Package pdftex.def Info: images/TableDesigner.png  used on input line 37.
@@ -1675,13 +1675,54 @@ Package pdftex.def Info: images/TableDesigner.png  used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [13 <./images/ObjectDesigner.png>] [14 <./images/TableDesigner.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\T1/lmr/m/n/10.95 lich-keit zur Kom-mu-ni-ka-ti-on via HTTP.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+[13 <./images/ObjectDesigner.png>] [14 <./images/TableDesigner.png>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 51.
+
+("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<images/VSCode.png, id=231, 777.65532pt x 465.99094pt>
+File: images/VSCode.png Graphic file (type png)
+<use images/VSCode.png>
+Package pdftex.def Info: images/VSCode.png  used on input line 60.
+(pdftex.def)             Requested size: 369.88582pt x 221.64662pt.
+
+[15 <./images/VSCode.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\T1/lmr/m/n/10.95 lässt sich mit-tels we-ni-ger Klicks in-stal-lie-ren.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+<images/Tables.png, id=240, 743.77875pt x 171.64125pt>
+File: images/Tables.png Graphic file (type png)
+<use images/Tables.png>
+Package pdftex.def Info: images/Tables.png  used on input line 81.
+(pdftex.def)             Requested size: 369.88582pt x 85.35945pt.
+[16 <./images/Tables.png>]) [17]
 \openout2 = `chapters/06tests.aux'.
 
-
-(chapters/06tests.tex
+ (chapters/06tests.tex
 Kapitel 6.
-) [15
+) [18
 
 
 
@@ -1690,13 +1731,13 @@ Kapitel 6.
 
  (chapters/07diskussion.tex
 Kapitel 7.
-) [16
+) [19
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [17
+ [20
 
 
 ]
@@ -1707,34 +1748,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 411E90F5AAF3E28F9E3FF88F92B4E593;2758.
+(rerunfilecheck)             Checksum: 3B666862C78EBE15C9CBFF66F70F8DBE;3344.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25853 strings out of 492946
- 418774 string characters out of 3125378
- 980194 words of memory out of 3000000
- 29151 multiletter control sequences out of 15000+200000
- 59141 words of font info for 48 fonts, out of 3000000 for 9000
+ 25918 strings out of 492946
+ 420317 string characters out of 3125378
+ 981473 words of memory out of 3000000
+ 29199 multiletter control sequences out of 15000+200000
+ 59506 words of font info for 49 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  67i,11n,96p,1270b,2280s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
-enc}<C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
-mbx10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmcsc10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmr10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr12.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmr17.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/naderer/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Users/naderer/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/naderer/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (19 pages, 440242 bytes).
+enc}{C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
+s1.enc}<C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
+m/lmbx10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmcsc10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr12.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/naderer/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/naderer/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Users/naderer/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/naderer/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on main.pdf (22 pages, 519016 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -220,6 +220,36 @@
       \endverb
       \keyw{enterprise resource planning,software maintenance lifecycle,maintenance trends}
     \endentry
+    \entry{KahlertGiza2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a2ea41a595724940bd247fa62b0ed1d0}{%
+           family={Tobias\bibnamedelima Kahlert},
+           familyi={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Kay\bibnamedelima Giza},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft Press}%
+      }
+      \strng{namehash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \strng{fullhash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \strng{bibnamehash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \strng{authorbibnamehash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \strng{authornamehash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \strng{authorfullhash}{a2ea41a595724940bd247fa62b0ed1d0}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visual Studio Code Tips and Tricks}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
