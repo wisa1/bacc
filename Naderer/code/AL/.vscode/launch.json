@@ -8,10 +8,8 @@
             "server": "http://172.27.186.124",
             "serverInstance": "NAV",
             "authentication": "Windows",
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
             "breakOnError": true,
-            "launchBrowser": true,
+            "launchBrowser": false,
             "schemaUpdateMode": "ForceSync"
         }
     ]

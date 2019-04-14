@@ -71,11 +71,11 @@ codeunit 50200 "LP Loyalty Point Management"
 
     // Retrieves a filtered Customer Record, and assigned Loyalty points to them. 
     // The DocumentNo Parameter is used as the Document No for the entries. 
-    procedure GrantMarketingPoints(Points: Integer; Customer: Record Customer; DocumentNo: Code[20])
+    procedure GrantMarketingPoints(PointsToGrant: Integer; var Customer: Record Customer; DocumentNo: Code[20]; PostingDescription: Text[100])
     var
         LoyaltyPointEntry: Record "LP Loyalty Point Entry";
     begin
-        Message(Customer.GetFilters());
+        //Create Loyalty Point Entry for each customer in the filtered Record
         if Customer.FindSet() then
             repeat
                 WITH LoyaltyPointEntry DO BEGIN
@@ -85,8 +85,9 @@ codeunit 50200 "LP Loyalty Point Management"
                     Validate("Posting Date", Today);
                     Validate("Entry Type", "Entry Type"::Marketing);
                     Validate("Document No.", DocumentNo);
+                    Validate(Description, PostingDescription);
                     Validate("Customer Name", Customer.Name);
-                    Validate(Points, Points);
+                    Validate(Points, PointsToGrant);
                     Insert(True);
                 END;
             until Customer.Next() = 0
