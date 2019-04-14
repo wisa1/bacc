@@ -1,26 +1,21 @@
 {
-  "id": "4ac12a3f-3257-44fa-89fc-f7bc457662f7",
-  "name": "AL",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "id": "6f30e971-5966-4a04-9dc0-6b4dcbbe3aee",
+  "name": "LoyaltyPoints",
+  "publisher": "Johannes Naderer",
+  "version": "1.0.0.2",
+  "brief": "Extension to manage LoyaltyPoints for Customers",
+  "description": "Delivers configurable functionality for customers to earn and spend Loyalty Points, as well as Exports to serve BI needs",
   "dependencies": [],
   "screenshots": [],
   "platform": "14.0.0.0",
   "application": "14.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50200,
+      "to": 50249
     }
   ],
-  "contextSensitiveHelpUrl": "https://AL.com/help/",
+  "contextSensitiveHelpUrl": "https://localhost/LoyaltyPoints/",
   "showMyCode": true,
   "runtime": "3.0"
 }

@@ -4,14 +4,15 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Local Docker Container",
-            "server": "http://172.20.50.254",
+            "name": "Your own server",
+            "server": "http://172.27.186.124",
             "serverInstance": "NAV",
             "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true,
-            "launchBrowser": true
+            "launchBrowser": true,
+            "schemaUpdateMode": "ForceSync"
         }
     ]
 }
