@@ -15,6 +15,11 @@ table 50200 "LP Loyalty Point Setup"
         {
             DataClassification = SystemMetadata;
         }
+        field(4; "LP Webservice Endpoint"; Text[100])
+        {
+            ExtendedDatatype = URL;
+            DataClassification = SystemMetadata;
+        }
     }
 
     keys

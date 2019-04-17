@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  7 APR 2019 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  16 APR 2019 15:25
 entering extended mode
 **./main.tex
 (main.tex
@@ -1319,7 +1319,14 @@ man.lbx"
 File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ) (main.aux (chapters/01kurzfassung.aux) (chapters/02abstract.aux)
 (chapters/03einleitung.aux) (chapters/04stand-der-technik.aux)
-(chapters/05vergleich.aux) (chapters/06tests.aux) (chapters/07diskussion.aux))
+(chapters/05vergleich.aux
+
+LaTeX Warning: Label `prog:PointEntryValidation' multiply defined.
+
+
+LaTeX Warning: Label `fig:Request Page' multiply defined.
+
+) (chapters/06tests.aux) (chapters/07diskussion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1488,9 +1495,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 26.
-Package tocbasic Info: Using my definition of `\numberline' on input line 62.
 Package tocbasic Info: Using my definition of `\numberline' on input line 64.
 Package tocbasic Info: Using my definition of `\numberline' on input line 66.
+Package tocbasic Info: Using my definition of `\numberline' on input line 68.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1540,13 +1547,13 @@ Kapitel 4.
 
 
 ]
-<images/ERPModules.png, id=173, 505.89pt x 525.965pt>
+<images/ERPModules.png, id=178, 505.89pt x 525.965pt>
 File: images/ERPModules.png Graphic file (type png)
 <use images/ERPModules.png>
 Package pdftex.def Info: images/ERPModules.png  used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 207.07573pt.
  [6 <./images/ERPModules.png>]
-<images/3TierArchitecture.png, id=182, 644.4075pt x 472.76625pt>
+<images/3TierArchitecture.png, id=187, 644.4075pt x 472.76625pt>
 File: images/3TierArchitecture.png Graphic file (type png)
 <use images/3TierArchitecture.png>
 Package pdftex.def Info: images/3TierArchitecture.png  used on input line 40.
@@ -1576,7 +1583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-<images/TableExtenison.png, id=195, 753.81625pt x 91.34125pt>
+<images/TableExtenison.png, id=200, 753.81625pt x 91.34125pt>
 File: images/TableExtenison.png Graphic file (type png)
 <use images/TableExtenison.png>
 Package pdftex.def Info: images/TableExtenison.png  used on input line 94.
@@ -1662,12 +1669,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<images/ObjectDesigner.png, id=216, 734.745pt x 473.51906pt>
+<images/ObjectDesigner.png, id=221, 734.745pt x 473.51906pt>
 File: images/ObjectDesigner.png Graphic file (type png)
 <use images/ObjectDesigner.png>
 Package pdftex.def Info: images/ObjectDesigner.png  used on input line 28.
 (pdftex.def)             Requested size: 369.88582pt x 238.38463pt.
-<images/TableDesigner.png, id=217, 705.38531pt x 495.35063pt>
+<images/TableDesigner.png, id=222, 705.38531pt x 495.35063pt>
 File: images/TableDesigner.png Graphic file (type png)
 <use images/TableDesigner.png>
 Package pdftex.def Info: images/TableDesigner.png  used on input line 37.
@@ -1691,7 +1698,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 51.
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/VSCode.png, id=231, 777.65532pt x 465.99094pt>
+<images/VSCode.png, id=236, 777.65532pt x 465.99094pt>
 File: images/VSCode.png Graphic file (type png)
 <use images/VSCode.png>
 Package pdftex.def Info: images/VSCode.png  used on input line 60.
@@ -1713,17 +1720,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--72
  []
 
 [16]
-<images/Tables.png, id=244, 723.70375pt x 395.4775pt>
+<images/Tables.png, id=249, 723.70375pt x 395.4775pt>
 File: images/Tables.png Graphic file (type png)
 <use images/Tables.png>
 Package pdftex.def Info: images/Tables.png  used on input line 82.
 (pdftex.def)             Requested size: 369.88582pt x 202.13136pt.
- [17 <./images/Tables.png>]) [18]
+ [17 <./images/Tables.png>]
+Overfull \hbox (59.51147pt too wide) in paragraph at lines 96--97
+[]\T1/lmr/m/n/10.95 Für die Im-ple-men-tie-rung der Ge-schäfts-lo-gik wird ein 
+ent-spre-chen-des Codeunit-Applikatonsobjekt
+ []
+
+<images/CALTableDesigner.png, id=257, 755.07094pt x 251.43938pt>
+File: images/CALTableDesigner.png Graphic file (type png)
+<use images/CALTableDesigner.png>
+Package pdftex.def Info: images/CALTableDesigner.png  used on input line 102.
+(pdftex.def)             Requested size: 369.88582pt x 123.17183pt.
+[18 <./images/CALTableDesigner.png>]
+Package hyperref Info: bookmark level for unknown program defaults to 0 on inpu
+t line 112.
+
+("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang
+1.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 114.
+
+
+("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+[20]
+<images/RequestPage.png, id=324, 448.67625pt x 456.20438pt>
+File: images/RequestPage.png Graphic file (type png)
+<use images/RequestPage.png>
+Package pdftex.def Info: images/RequestPage.png  used on input line 188.
+(pdftex.def)             Requested size: 284.52756pt x 289.31065pt.
+ [21 <./images/RequestPage.png>]
+<images/xmlport.png, id=331, 1120.9378pt x 232.61906pt>
+File: images/xmlport.png Graphic file (type png)
+<use images/xmlport.png>
+Package pdftex.def Info: images/xmlport.png  used on input line 199.
+(pdftex.def)             Requested size: 412.56496pt x 85.61691pt.
+ [22 <./images/xmlport.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+\T1/lmr/m/n/10.95 über-tra-gen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\T1/lmr/m/it/10.95 Po-wer-BI \T1/lmr/m/n/10.95 zu syn-chro-ni-sie-ren.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+) [24] [25]
 \openout2 = `chapters/06tests.aux'.
 
  (chapters/06tests.tex
 Kapitel 6.
-) [19
+) [26
 
 
 
@@ -1732,13 +1821,13 @@ Kapitel 6.
 
  (chapters/07diskussion.tex
 Kapitel 7.
-) [20
+) [27
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [21
+ [28
 
 
 ]
@@ -1749,19 +1838,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3B666862C78EBE15C9CBFF66F70F8DBE;3344.
+(rerunfilecheck)             Checksum: 4D2B780B87C7FE00ED9ED3D42EEDD931;3548.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25919 strings out of 492946
- 420324 string characters out of 3125378
- 981473 words of memory out of 3000000
- 29199 multiletter control sequences out of 15000+200000
- 59506 words of font info for 49 fonts, out of 3000000 for 9000
+ 26407 strings out of 492946
+ 425634 string characters out of 3125378
+ 1058350 words of memory out of 3000000
+ 29609 multiletter control sequences out of 15000+200000
+ 70396 words of font info for 54 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 67i,11n,96p,1270b,2280s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1732b,2280s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
 enc}{C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
 s1.enc}<C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
@@ -1770,14 +1863,18 @@ blic/lm/lmcsc10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmr10.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/lm/lmr12.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/lm/lmr17.pfb><C:/Users/naderer/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/naderer/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Users/naderer/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/naderer/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (23 pages, 526005 bytes).
+TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/naderer/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/naderer/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Users/naderer/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Users/naderer/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/n
+aderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:
+/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pf
+b>
+Output written on main.pdf (30 pages, 694011 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
