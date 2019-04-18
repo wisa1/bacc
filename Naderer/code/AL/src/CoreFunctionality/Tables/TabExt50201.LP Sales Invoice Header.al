@@ -11,7 +11,4 @@ tableextension 50200 "LP Sales Invoice Header" extends "Sales Invoice Header"
             DataClassification = CustomerContent;
         }
     }
-
-    var
-        myInt: Integer;
 }

@@ -49,6 +49,22 @@ pageextension 50200 "LP Customer List" extends "Customer List"
 
                     end;
                 }
+
+                action("Send Customer data to CRM")
+                {
+                    Image = LaunchWeb;
+                    Caption = 'Send Customer Data to CRM';
+                    ApplicationArea = All;
+
+                    trigger OnAction()
+                    var
+                        Customer: Record Customer;
+                        TransmitWSData: Codeunit "LP Transmit WS Data";
+                    begin
+                        Customer.SetRange("No.", 'D00010');
+                        TransmitWSData.TransmitDataForCustomer(Customer);
+                    end;
+                }
             }
         }
     }

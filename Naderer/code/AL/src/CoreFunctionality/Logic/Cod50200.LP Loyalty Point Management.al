@@ -12,7 +12,7 @@ codeunit 50200 "LP Loyalty Point Management"
     begin
         // Posting the spent Loyalty points, using the loyalty points in the posted Document
         WITH LoyaltyPointEntry DO BEGIN
-            Init;
+            Init();
             Validate("Customer No.", SalesInvoiceHeader."Bill-to Customer No.");
             Validate("Posting Date", SalesInvoiceHeader."Posting Date");
             Validate("Entry Type", "Entry Type"::Spent);
@@ -29,7 +29,7 @@ codeunit 50200 "LP Loyalty Point Management"
     begin
         // Posting the earned points, using the turnover from the current invoice
         WITH LoyaltyPointEntry DO BEGIN
-            Init;
+            Init();
             Validate("Customer No.", SalesInvoiceHeader."Bill-to Customer No.");
             Validate("Posting Date", SalesInvoiceHeader."Posting Date");
             Validate("Entry Type", "Entry Type"::Earned);
@@ -45,8 +45,8 @@ codeunit 50200 "LP Loyalty Point Management"
     var
         LoyaltySetup: Record "LP Loyalty Point Setup";
     begin
-        IF NOT LoyaltySetup.GET THEN
-            LoyaltySetup.Init;
+        IF NOT LoyaltySetup.Get() THEN
+            LoyaltySetup.Init();
 
         //return zero for invalid setup or null-invoices
         IF (LoyaltySetup."LP Turnover for Point" = 0) OR (InvoiceAmount = 0) THEN
@@ -63,8 +63,8 @@ codeunit 50200 "LP Loyalty Point Management"
     var
         LoyaltySetup: Record "LP Loyalty Point Setup";
     begin
-        IF NOT LoyaltySetup.GET THEN
-            LoyaltySetup.Init;
+        IF NOT LoyaltySetup.Get() THEN
+            LoyaltySetup.Init();
 
         EXIT(Points * LoyaltySetup."LP Discount per Point");
     end;
@@ -79,10 +79,10 @@ codeunit 50200 "LP Loyalty Point Management"
         if Customer.FindSet() then
             repeat
                 WITH LoyaltyPointEntry DO BEGIN
-                    Init;
+                    Init();
                     Validate("Entry No.", 0);
                     Validate("Customer No.", Customer."No.");
-                    Validate("Posting Date", Today);
+                    Validate("Posting Date", Today());
                     Validate("Entry Type", "Entry Type"::Marketing);
                     Validate("Document No.", DocumentNo);
                     Validate(Description, PostingDescription);

@@ -15,9 +15,8 @@ report 50202 "LP Generate Entries"
 
             trigger OnAfterGetRecord()
             var
-                CurrentPoints: Integer;
-                LoyaltyPointEntry: Record "LP Loyalty Point Entry";
                 LoyaltyPointMgmt: Codeunit "LP Loyalty Point Management";
+                CurrentPoints: Integer;
 
             begin
                 if IntegerLoop.Number > 1000 then begin
@@ -43,20 +42,19 @@ report 50202 "LP Generate Entries"
                 if (IntegerLoop.Number MOD 100) = 0 then
                     Message(Format(IntegerLoop.Number));
 
-                CurrReport.Skip;
+                CurrReport.Skip();
             end;
         }
     }
 
     local procedure CreatePoints(CurrentPoints: Integer; DocNo: Integer)
     var
-        myInt: Integer;
         LoyaltyPointEntry: Record "LP Loyalty Point Entry";
     begin
         if CurrentPoints = 0 then exit;
 
         WITH LoyaltyPointEntry DO BEGIN
-            Init;
+            Init();
             Validate("Customer No.", CustomerRec."No.");
             Validate("Posting Date", globalDate);
 
@@ -80,7 +78,7 @@ report 50202 "LP Generate Entries"
     end;
 
     var
-        globalDate: Date;
         CustomerRec: Record Customer;
+        globalDate: Date;
 
 }

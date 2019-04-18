@@ -8,15 +8,15 @@ tableextension 50203 "LP Sales Header" extends "Sales Header"
 
             trigger OnValidate()
             var
-                LoyaltyPointMgmt: Codeunit "LP Loyalty Point Management";
                 Customer: Record Customer;
-                ErrTooManyPointsAssigned: Label 'Too many points assigned! Available: %1';
+                LoyaltyPointMgmt: Codeunit "LP Loyalty Point Management";
+                TooManyPointsAssignedErr: Label 'Too many points assigned! Available: %1';
             begin
                 // Make the user can not assign more points, than the customer currently has
                 Customer.Get("Bill-to Customer No.");
                 Customer.CalcFields("LP Loyalty Points");
                 if "LP Spent Loyalty Points" > Customer."LP Loyalty Points" then
-                    ERROR(ErrTooManyPointsAssigned, FORMAT(Customer."LP Loyalty Points"));
+                    ERROR(TooManyPointsAssignedErr, FORMAT(Customer."LP Loyalty Points"));
 
                 // Adjust Invoice discount in case there was a loyalty discount beforehand
                 if "LP Loyalty Point Discount" <> 0 then

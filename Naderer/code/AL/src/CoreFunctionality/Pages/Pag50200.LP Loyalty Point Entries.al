@@ -1,4 +1,4 @@
-page 50200 "LP Loyalty Point Entries"
+page 50201 "LP Loyalty Point Entries"
 {
     PageType = List;
     UsageCategory = Lists;

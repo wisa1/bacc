@@ -1,16 +1,5 @@
 codeunit 50203 "LP WebServiceHelper"
 {
-    procedure CreateBasicAuthString(User: Text; Password: Text): Text
-    var
-        TempBlob: Record TempBlob;
-        AuthText: Text;
-    begin
-        AuthText := StrSubstNo('%1:%2', 'd3service', 'B5F0!n7+Ase4');
-        TempBlob.WriteAsText(AuthText, TextEncoding::Windows);
-        AuthText := StrSubstNo('Basic %1', TempBlob.ToBase64String());
-        exit(AuthText)
-    end;
-
     procedure ToBase64String(Bytes: List of [Byte]): Text;
     var
         TempBlob: Record TempBlob;

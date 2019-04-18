@@ -9,12 +9,9 @@ report 50200 "LP Grant Loyalty Points"
         dataitem(Customers; Customer)
         {
             RequestFilterFields = "No.", "Post Code", "LP Loyalty Points";
-
-
             trigger OnAfterGetRecord()
             var
                 LoyaltyPointManagement: Codeunit "LP Loyalty Point Management";
-                FilteredCust: Record Customer;
             begin
                 LoyaltyPointManagement.GrantMarketingPoints(Points, Customers, DocumentNo, Description);
             end;
