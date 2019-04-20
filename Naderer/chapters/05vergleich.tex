@@ -227,7 +227,63 @@ Bei diesen Layouts unterscheidet man im Business Central Umfeld zwischen RDLC un
 
 \subsection{Webservice-Anbindung}
 \subsubsection{C/AL}
+Im letzten Entwicklungsschritt soll die ansonsten komplettierte Erweiterung zur Verwaltung von Treuepunkten an das CRM-System des Kunden angebunden werden. Diese Anbindung passiert über einen vom CRM-System veröffentlichten REST Webdienst, über den einzelne Treuepunkteposten übermittelt werden können. Neben diesem einfachen Webdienst sind für die Zukunft noch eine Vielzahl weiterer, komplexerer Schnittstellen geplant. \linebreak
+
+C/AL und die in der Sprache inkludierten Funktionen reichen für die Erfüllung der geforderten Aufgabe nicht aus. In C/AL ist keine Möglichkeit vorgesehen, mit Drittsystemen via HTTP zu kommunizieren. Um der Anforderung trotzdem gerecht zu werden, wird eine Funktionalität genutzt, die mit der Version 2009R2 in das System integriert wurde: DotNet Interoperabilität. Mit Microsoft Dynamics NAV 2009R2 wurde die 3-Schichten-Architektur eingeführt, und mit ihr eine Serverschicht, die auf .NET Basis entwickelt wurde, und auch .NET Code ausführt. Entwicklern steht damit offen .NET basierte Klassenbibliotheken zu erstellen, in das bestehende System zu integrieren, und Funktionalität aus diesen Bibliotheken aus C/AL aufzurufen. Obwohl mit der Einführung von .NET in C/AL die Möglichkeiten unbegrenzt erscheinen, ist die Einbindung von .NET Klassenbibliotheken nur sehr begrenzt sinnvoll. Ein Grund hierfür ist die Abwesenheit einer wohl definierte Anbindung an das Common Type System aus dem .NET Umfeld. Die Kommunikation zwischen den beiden Welten kann nur über einfache Datentypen passieren, da C/AL nicht mit Objekten aus einem objektorientierten Umfeld umgehen kann, und C/AL Records nicht an die .NET Klassenbibliothek übergeben werden können. Weiters können einige Features des .NET Frameworks wie generische Typen und Collections nicht, oder nur via Reflection in C/AL verwendet werden. \linebreak
+
+Um Treuepunkteposten an den Webdienst senden zu können, wird anhand fehlender Alternativen in C/AL eine .NET Komponente \textit{WebRequestHandler} entwickelt, welche die Datenkonvertierung und HTTP-Kommunikation übernimmt. Im folgenden wird für die Implementierung die Sprache C\# verwendet, hierfür können jedoch sämtliche .NET Sprachen verwendet werden, unter anderen also auch VisualBasic oder F\#.\linebreak
+\pagebreak
+
+Die Methode \textit{TransmitEntry} \ref{prog:.netWS} empfängt hier ein Objekt vom Typ \textit{LoyaltyPointEntryDTO}, dass bereits sämtliche Felder der Business Central Tabelle als Eigenschaften enthält. Danach wird mittels der vom .NET Framework zur Verfügung gestellten Klasse HttpClient eine entsprechende Webanfrage erstellt und an den Webdienst übermittelt. Bei der Implementierung von .NET Code, der aus C/AL aufgerufen werden soll, sind gegenüber der traditionellen Entwicklung von .NET Applikationen einige Punkte zu beachten:
+
+\begin{program}  % Start your code-block
+	\centering
+	\caption{.NET Interop: C\# Code zur Übermittlung eines Treuepunktpostens an den CRM-Webdienst}
+	\label{prog:.netWS}
+
+	\begin{JavaCode}
+public class WebRequestHandler
+{
+  private int TransmitEntry(LoyaltyPointEntryDTO dto, string endpoint)
+  {
+    try
+    {
+    	HttpClient client = new HttpClient();
+    	client.BaseAddress = new Uri(endpoint);
+    	client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    	HttpContent content = new StringContent(dto.ToJsonString(), Encoding.UTF8, "application/json");
+    	
+    	HttpResponseMessage response = client.PostAsync(endpoint, content).Result;
+    	return (int)response.StatusCode;
+    }
+    catch (Exception e)
+    {
+    	return 0;
+    }
+  }
+	\end{JavaCode}
+\end{program}
+
+\begin{itemize}
+	\item An die aufrufende C/AL Komponente können lediglich einfache Typen zurückgegeben werden, und selbst hier können bei Gleitkommazahlen unter gewissen Umständen ungewollte Nebeneffekte auftreten. Es empfiehlt sich, wenn möglich nur Ganzzahlen und Zeichenfolgen als Rückgabewerte zu verwenden. Hier wird der HTTP Status Code verwendet, um C/AL rückzumelden, ob der Aufruf erfolgreich war.
+	\item Asynchrone Aufrufe sind nicht möglich. Die Laufzeitumgebung von Microsoft Dynamics Business Central führt C/AL immer synchron aus. Obwohl Netzwerkkommunikation über HTTP grundsätzlich eine Operation ist, die asynchron ausgeführt werden sollte, wird die C/AL Umgebung immer auf das Ausführungsende warten.
+	\item Sämtliche Ausnahmen (\textit{Exceptions}) müssen im .NET Code behandelt werden. Microsoft Dynamics Business Central liefert nur sehr begrenzt Möglichkeiten mit Ausnahmesituationen umzugehen, es empfielt sich daher Ausnahmen dort zu behandeln wo sie auftreten, und das Auftreten einer Ausnahme über den Rückgabewert an die aufrufende C/AL Komponente zu signalisieren.
+	\item C/AL liefert keinen Mechanismus, um im Web beliebte Formate wie \textit{JSON} (JavaScript Object Notation) zu verarbeiten. Die Serialisierung und Deserialisierung von Daten sollte somit im .NET Code implementiert werden. Im obigen Codebeispiel passiert dies über die Methode \textit{ToJsonString()} der Klasse \textit{LoyaltyPointEntryDTO}. 
+\end{itemize}
+
+Um die fertige Klassenbibliothek schlussendlich auch in C/AL verfügbar zu machen, muss die kompilierte Bibliothek im nächsten Schritt entweder im \textit{Global Assembly Cache}  der Servermaschine registriert, oder in das Programmverzeichnis der Serverapplikation kopiert werden. Danach kann im Development Environment eine Variable vom Typ DotNet und Subtyp der erstellten Klassenbibliothek erstellt werden, über die die Methoden der Klassenbibliothek aufgerufen werden können.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=130mm]{images/dotnetVariable}
+	\caption{Development Environment: Nutzung eines DotNet Datentypen zur Kommunikation mit einem CRM-Webdienst}
+	\label{fig:dotnetVariable}
+\end{figure}
+\pagebreak
+
 \subsubsection{AL}
+Anders als im Development Environment und unter C/AL lässt sich die Webdienstanbindung mithilfe der Möglichkeiten in AL ohne dem Umweg über das .NET Framework und die DotNet Interoperabilität realisieren. In der OnPremise Variante von Microsoft Dynamics 365 Business Central wird die Verwendung von selbst implementierten Klassenbibliotheken zwar noch unterstützt, sobald man sich jedoch einer Cloud-Instanz von Business Central bewegt, ist diese Möglichkeit nicht mehr verfügbar. Mit dem Wegfall von DotNet Interoperabilität in der Cloud-Variante geht auch viel potentielle Funktionalität der Lösung verloren. Um dem entgegenzuwirken, wurde und wird AL auch in Zukunft immer weiter um Funktionalität angereichert. Beispiele dieser neuen Funktionalitäten in AL sind unter anderem die neuen Datentypen zur Kommunikation via HTTP und zur Erstellung von JSON und XML Dokumenten. Neben diesen ist es unter AL auch erstmals in der Geschichte von Dynamics 365 Business Central möglich, im Speicher verwaltete \textit{Collections} zu nutzen, die nicht auf temporären Datenbanktabellen basieren.
+
 
 \subsection{Deployment und Kompilierung}
 \subsubsection{C/AL}
