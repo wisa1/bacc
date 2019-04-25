@@ -9,13 +9,13 @@
   "screenshots": [],
   "platform": "14.0.0.0",
   "application": "14.0.0.0",
-  "idRanges": [
+  "idRanges":[
     {
       "from": 50200,
       "to": 50249
     }
-  ],
-  "contextSensitiveHelpUrl": "https://localhost/LoyaltyPoints/",
+  ] 
+  ,
   "showMyCode": true,
   "runtime": "3.0"
 }

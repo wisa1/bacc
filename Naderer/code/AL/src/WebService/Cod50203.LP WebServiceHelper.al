@@ -43,7 +43,6 @@ codeunit 50203 "LP WebServiceHelper"
         end;
         Request.Content(Content);
         Client.Send(Request, Response);
-
     end;
 
     procedure DoGetRequest(Endpoint: Text;

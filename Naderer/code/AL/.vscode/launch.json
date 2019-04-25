@@ -5,12 +5,13 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "http://172.27.186.124",
-            "serverInstance": "NAV",
+            "server": "http://localhost",
+            "serverInstance": "BC140",
             "authentication": "Windows",
             "breakOnError": true,
             "launchBrowser": false,
-            "schemaUpdateMode": "ForceSync"
+            "schemaUpdateMode": "ForceSync",
+            "port": 7079
         }
     ]
 }
