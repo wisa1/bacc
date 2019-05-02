@@ -17,33 +17,56 @@
 \RequirePackage[utf8]{inputenc}		% bei der Verw. von lualatex oder xelatex entfernen!
 
 \graphicspath{{images/}}    % Verzeichnis mit Bildern und Grafiken
-\logofile{}				% Logo-Datei = images/logo.pdf (\logofile{}, wenn kein Logo gewünscht)
+\logofile{logo}				% Logo-Datei = images/logo.pdf (\logofile{}, wenn kein Logo gewünscht)
 \bibliography{references}  	% Biblatex-Literaturdatei (references.bib)
+
+
+%%%----------------------------------------------------------
+% Angaben für die Titelei (Titelseite, Erklärung etc.)
+%%%----------------------------------------------------------
+
+%%% Einträge für ALLE Arbeiten: -----------------------------
+\title{	Erweiterungsentwicklung für Microsoft Dynamics 365 Business Central unter Verwendung von ExtensionsV2}
+\author{Johannes \ Naderer}
+\programname{Software Engineering}
+\placeofstudy{Hagenberg}
+\dateofsubmission{2019}{05}{05}	% {YYYY}{MM}{DD}
+
+%%% Zusätzlich für eine Bachelorarbeit: ---------------------
+\thesisnumber{1610307026-A}   % Stud-ID, z.B. 1310238045-A  
+% (A = 1. Bachelorarbeit)
+\semester{Sommersemester 2019} 
+\coursetitle{Softwareentwicklung mit Enterprise-Technologien} 
+\advisor{DI (FH) Dr. Gerald Adam Zwettler MSc}
+
+%%% Restriktive Lizenformel anstatt CC (nur für Typ master) -
+%\strictlicense
+
 
 %%%----------------------------------------------------------
 \begin{document}
 %%%----------------------------------------------------------
 
-\begin{center}
-	\begin{Huge}
-	Erweiterungsentwicklung für Microsoft Dynamics 365 Business Central unter Verwendung von ExtensionsV2
-	\end{Huge}
+%\begin{center}
+%	\begin{Huge}
+%	Erweiterungsentwicklung für Microsoft Dynamics 365 Business Central unter Verwendung von ExtensionsV2
+%	\end{Huge}
 
-	\begin{Large}
-	\bigbreak
-	Johannes Naderer
+%	\begin{Large}
+%	\bigbreak
+%	Johannes Naderer
 	
-	(se0307)
-	\end{Large}	
-\end{center}
-\begin{center}
+%	(se0307)
+%	\end{Large}	
+%\end{center}
+%\begin{center}
 	
-\end{center}
+%<\end{center}
 %%%----------------------------------------------------------
 \frontmatter                    % Titelei (röm. Seitenzahlen)
 %%%----------------------------------------------------------
 
-%\maketitle
+\maketitle
 \tableofcontents
 
 %%%----------------------------------------------------------
