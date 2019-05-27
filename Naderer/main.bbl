@@ -45,8 +45,12 @@
       \field{booktitle}{IS Management}
       \field{month}{06}
       \field{title}{Implementing ERP in Manufacturing}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
       \field{volume}{20}
       \field{year}{2003}
+      \field{urldateera}{ce}
       \field{pages}{68\bibrangedash 75}
       \range{pages}{8}
       \verb{urlraw}
@@ -57,31 +61,30 @@
       \endverb
     \endentry
     \entry{WongTein2003}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b1a81d12326f41edb3b96d1bd18cd6ad}{%
+      \name{author}{1}{}{%
+        {{hash=8f6c7d8018c97930341c8c93bdb91e53}{%
            family={Bernard\bibnamedelima Wong},
            familyi={B\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={Dr},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4e8b5eb145ce7a7573e7c5101a4742e7}{%
-           family={Tein},
-           familyi={T\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
+           given={David\bibnamedelima Tein},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{84fc5a3b9e7b7019892d41b8b52958cf}
-      \strng{fullhash}{84fc5a3b9e7b7019892d41b8b52958cf}
-      \strng{bibnamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
-      \strng{authorbibnamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
-      \strng{authornamehash}{84fc5a3b9e7b7019892d41b8b52958cf}
-      \strng{authorfullhash}{84fc5a3b9e7b7019892d41b8b52958cf}
+      \strng{namehash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{fullhash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{bibnamehash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{authorbibnamehash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{authornamehash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{authorfullhash}{8f6c7d8018c97930341c8c93bdb91e53}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
       \field{title}{Critical Success Factors for ERP Projects}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
       \field{year}{2003}
+      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 2}
       \range{pages}{2}
       \verb{urlraw}
@@ -115,7 +118,11 @@
       \field{langid}{english}
       \field{subtitle}{Create solutions that are easy to maintain, are quick to upgrade, and follow proven concepts and design}
       \field{title}{Learning Dynamics NAV Patterns}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
       \field{year}{2015}
+      \field{urldateera}{ce}
       \field{pages}{135\bibrangedash 136}
       \range{pages}{2}
       \verb{urlraw}
@@ -181,31 +188,109 @@
       \field{year}{2016}
     \endentry
     \entry{DynamicsNAV2018Anwenderbuch}{book}{}
-      \name{author}{1}{}{%
-        {{hash=993dbdf84758ba16435c08c775b68b86}{%
-           family={Michaela\bibnamedelima Gayer},
-           familyi={M\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={Jürgen\bibnamedelima Ebert},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           suffix={Christian\bibnamedelima Hauptmann},
-           suffixi={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      \name{author}{3}{}{%
+        {{hash=b97c93f61a834fe2449a14d1c4038a59}{%
+           family={Gayer},
+           familyi={G\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d7bf3c00706feaeabb47ae424b6a75e}{%
+           family={Hauptmann},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d41462940e388fa210934cc23bc0fd41}{%
+           family={Ebert},
+           familyi={E\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Carl Hanser Verlag GmbH Co KG}%
       }
-      \strng{namehash}{993dbdf84758ba16435c08c775b68b86}
-      \strng{fullhash}{993dbdf84758ba16435c08c775b68b86}
-      \strng{bibnamehash}{993dbdf84758ba16435c08c775b68b86}
-      \strng{authorbibnamehash}{993dbdf84758ba16435c08c775b68b86}
-      \strng{authornamehash}{993dbdf84758ba16435c08c775b68b86}
-      \strng{authorfullhash}{993dbdf84758ba16435c08c775b68b86}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \strng{namehash}{e6d987d980da9a626997a8600116550e}
+      \strng{fullhash}{e6d987d980da9a626997a8600116550e}
+      \strng{bibnamehash}{e6d987d980da9a626997a8600116550e}
+      \strng{authorbibnamehash}{e6d987d980da9a626997a8600116550e}
+      \strng{authornamehash}{e6d987d980da9a626997a8600116550e}
+      \strng{authorfullhash}{e6d987d980da9a626997a8600116550e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{german}
       \field{title}{Microsoft Dynamics NAV 2018: Das Anwenderbuch zur Abwicklung von Geschäftsprozessen}
       \field{year}{2018}
+    \endentry
+    \entry{hoque2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6ff2b2adaf24f1ec4e4cab0b70ea31a8}{%
+           family={Hoque},
+           familyi={H\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod}}}%
+        {{hash=105ad633179f55b77e1a3eb29b1a41e9}{%
+           family={Bahssas},
+           familyi={B\bibinitperiod},
+           given={Dania},
+           giveni={D\bibinitperiod}}}%
+        {{hash=766dc43ca43be9561a1d0ebab4bb7992}{%
+           family={Albar},
+           familyi={A\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f94a434342af7fc81fa19400a6003d20}
+      \strng{fullhash}{f94a434342af7fc81fa19400a6003d20}
+      \strng{bibnamehash}{f94a434342af7fc81fa19400a6003d20}
+      \strng{authorbibnamehash}{f94a434342af7fc81fa19400a6003d20}
+      \strng{authornamehash}{f94a434342af7fc81fa19400a6003d20}
+      \strng{authorfullhash}{f94a434342af7fc81fa19400a6003d20}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Technology Management Review,}
+      \field{month}{06}
+      \field{title}{Enterprise Resource Planning (ERP) Systems: Design, Trends and Deployment}
+      \field{volume}{Vol. 5 (2015),}
+      \field{year}{2015}
+      \field{pages}{72\bibrangedash 81}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2991/itmr.2015.5.2.2
+      \endverb
+    \endentry
+    \entry{freddysblog}{online}{}
+      \name{author}{1}{}{%
+        {{hash=79dd51ec810326f43506e2f020de7805}{%
+           family={Kristiansen},
+           familyi={K\bibinitperiod},
+           given={Freddy},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{79dd51ec810326f43506e2f020de7805}
+      \strng{fullhash}{79dd51ec810326f43506e2f020de7805}
+      \strng{bibnamehash}{79dd51ec810326f43506e2f020de7805}
+      \strng{authorbibnamehash}{79dd51ec810326f43506e2f020de7805}
+      \strng{authornamehash}{79dd51ec810326f43506e2f020de7805}
+      \strng{authorfullhash}{79dd51ec810326f43506e2f020de7805}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developing Business Central Extensions}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://community.dynamics.com/business/b/freddysblog/archive/2018/11/12/developing-business-central-extensions-part-1-prerequisites
+      \endverb
+      \verb{url}
+      \verb https://community.dynamics.com/business/b/freddysblog/archive/2018/11/12/developing-business-central-extensions-part-1-prerequisites
+      \endverb
     \endentry
     \entry{msdnRecordAPI}{online}{}
       \name{author}{1}{}{%
@@ -267,6 +352,36 @@
       \verb https://docs.microsoft.com/en-us/dynamics-nav/designing-application-objects#object-oriented-vs-object-based
       \endverb
     \endentry
+    \entry{msdnProductArchitecture}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Product and Architecture Overview}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/dynamics-nav/product-and-architecture-overview
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/dynamics-nav/product-and-architecture-overview
+      \endverb
+    \endentry
     \entry{doi:10.1002/smr.239}{article}{}
       \name{author}{3}{}{%
         {{hash=214d4b6802de2b4291892a10aaa39450}{%
@@ -298,8 +413,12 @@
       \field{journaltitle}{Journal of Software Maintenance and Evolution: Research and Practice}
       \field{number}{6}
       \field{title}{Characteristics of ERP software maintenance: a multiple case study}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
       \field{volume}{13}
       \field{year}{2001}
+      \field{urldateera}{ce}
       \field{pages}{399\bibrangedash 414}
       \range{pages}{16}
       \verb{urlraw}
@@ -338,6 +457,37 @@
       \field{labeltitlesource}{title}
       \field{title}{Implementing Microsoft Dynamics NAV 2009}
       \field{year}{2009}
+    \endentry
+    \entry{stefanetti2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b019eadb4b935a65f01d2c3c75c74eb3}{%
+           family={Stefanetti},
+           familyi={S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \strng{fullhash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \strng{bibnamehash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \strng{authorbibnamehash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \strng{authornamehash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \strng{authorfullhash}{b019eadb4b935a65f01d2c3c75c74eb3}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Goodbay to C/SIDE and Windows Client!}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://robertostefanettinavblog.com/2019/04/01/goodbay-to-c-side-and-windows-client/
+      \endverb
+      \verb{url}
+      \verb https://robertostefanettinavblog.com/2019/04/01/goodbay-to-c-side-and-windows-client/
+      \endverb
     \endentry
     \entry{studebaker2007programming}{book}{}
       \name{author}{1}{}{%
@@ -385,7 +535,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Visual Studio Code Tips and Tricks}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
       \field{year}{2016}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
       \endverb

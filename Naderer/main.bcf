@@ -2003,12 +2003,18 @@
     <bcf:citekey order="6">DynamicsNAV2018Anwenderbuch</bcf:citekey>
     <bcf:citekey order="7">DynamicsNAV2018Anwenderbuch</bcf:citekey>
     <bcf:citekey order="8">studebaker2007programming</bcf:citekey>
-    <bcf:citekey order="9">DesignAndImplementationGayer</bcf:citekey>
-    <bcf:citekey order="10">roys2009implementing</bcf:citekey>
-    <bcf:citekey order="11">msdnDesigningApplicationObjects</bcf:citekey>
-    <bcf:citekey order="12">KahlertGiza2016</bcf:citekey>
-    <bcf:citekey order="13">msdnRecordAPI</bcf:citekey>
-    <bcf:citekey order="14">fowler2006continuous</bcf:citekey>
+    <bcf:citekey order="9">hoque2015</bcf:citekey>
+    <bcf:citekey order="10">DesignAndImplementationGayer</bcf:citekey>
+    <bcf:citekey order="11">msdnProductArchitecture</bcf:citekey>
+    <bcf:citekey order="12">DesignAndImplementationGayer</bcf:citekey>
+    <bcf:citekey order="13">roys2009implementing</bcf:citekey>
+    <bcf:citekey order="14">msdnDesigningApplicationObjects</bcf:citekey>
+    <bcf:citekey order="15">KahlertGiza2016</bcf:citekey>
+    <bcf:citekey order="16">KahlertGiza2016</bcf:citekey>
+    <bcf:citekey order="17">msdnRecordAPI</bcf:citekey>
+    <bcf:citekey order="18">freddysblog</bcf:citekey>
+    <bcf:citekey order="19">fowler2006continuous</bcf:citekey>
+    <bcf:citekey order="20">stefanetti2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

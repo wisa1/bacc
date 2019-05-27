@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  5 MAY 2019 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.17)  25 MAY 2019 20:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -1345,30 +1345,30 @@ LaTeX Warning: Label `fig:Test2Schema' multiply defined.
 ) (chapters/07diskussion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 52.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 53.
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1423,7 +1423,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks41
 )
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 52.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
 .sty"
@@ -1435,9 +1435,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count385
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1465,90 +1465,144 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
-Package hyperref Info: Option `pageanchor' set `false' on input line 74.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 74.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Titelblatt.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Titelblatt.pdf, id=124, 597.55246pt x 845.07724pt>
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf>
+Package pdftex.def Info: pdf/Titelblatt.pdf  used on input line 56.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Titelblatt.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf>
+Package pdftex.def Info: pdf/Titelblatt.pdf  used on input line 56.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Titelblatt.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Titelblatt.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Titelblatt.pdf, id=127, page=1, 597.55246pt x 845.07724pt>
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 1>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 1>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 1>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 1>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 1>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[1
+
+ <./pdf/Titelblatt.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Titelblatt.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Titelblatt.pdf, id=167, page=2, 597.55246pt x 845.07724pt>
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 2>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page2 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 2>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page2 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: pdf/Titelblatt.pdf Graphic file (type pdf)
+<use pdf/Titelblatt.pdf, page 2>
+Package pdftex.def Info: pdf/Titelblatt.pdf , page2 used on input line 56.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[2 <./pdf/Titelblatt.pdf>]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 78.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 74.
+(main.toc
+Package tocbasic Info: Using my definition of `\numberline' on input line 4.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 74.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 74.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 74.
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/logo.pdf, id=140, 269.93045pt x 269.93045pt>
-File: images/logo.pdf Graphic file (type pdf)
-<use images/logo.pdf>
-Package pdftex.def Info: images/logo.pdf  used on input line 74.
-(pdftex.def)             Requested size: 85.35805pt x 85.35826pt.
- [1
-
-
-
-{C:/Users/naderer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/
-logo.pdf>] [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 74.
- [3
-
-] (main.toc
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
 Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 12.
-Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 58.
-Package tocbasic Info: Using my definition of `\numberline' on input line 148.
-Package tocbasic Info: Using my definition of `\numberline' on input line 170.
- [4
-
-]
-Package tocbasic Info: Using my definition of `\numberline' on input line 176.
+Package tocbasic Info: Using my definition of `\numberline' on input line 48.
+Package tocbasic Info: Using my definition of `\numberline' on input line 136.
+Package tocbasic Info: Using my definition of `\numberline' on input line 158.
+Package tocbasic Info: Using my definition of `\numberline' on input line 164.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5]
+ [1
+
+
+{C:/Users/naderer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 \openout2 = `chapters/01kurzfassung.aux'.
 
- (chapters/01kurzfassung.tex
-Kapitel 1.
-) [1
+
+(chapters/01kurzfassung.tex)pdfTeX warning (ext4): destination with the same id
+entifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \include{chapters/01kurzfassung}
+                                      [1
 
 
 
 ]
 \openout2 = `chapters/02abstract.aux'.
 
- (chapters/02abstract.tex
-Kapitel 2.
-) [2
+ (chapters/02abstract.tex)pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \include{chapters/02abstract}
+                                   [2
 
 
 
@@ -1556,7 +1610,7 @@ Kapitel 2.
 \openout2 = `chapters/03einleitung.aux'.
 
  (chapters/03einleitung.tex
-Kapitel 3.
+Kapitel 1.
 [3
 
 
@@ -1565,226 +1619,209 @@ Kapitel 3.
 \openout2 = `chapters/04stand-der-technik.aux'.
 
  (chapters/04stand-der-technik.tex
-Kapitel 4.
+Kapitel 2.
 [5
 
 
 
 ]
-<images/ERPModules.png, id=242, 505.89pt x 525.965pt>
+<images/ERPModules.png, id=251, 505.89pt x 525.965pt>
 File: images/ERPModules.png Graphic file (type png)
 <use images/ERPModules.png>
 Package pdftex.def Info: images/ERPModules.png  used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 207.07573pt.
 
 Underfull \hbox (badness 1342) in paragraph at lines 17--17
-[]\T1/lmr/bx/n/10 Abbildung 4.1: |\T1/lmr/m/n/10 Sche-ma-ti-sche Dar-stel-lung:
+[]\T1/lmr/bx/n/10 Abbildung 2.1: |\T1/lmr/m/n/10 Sche-ma-ti-sche Dar-stel-lung:
  Ty-pi-sche Mo-dul-glie-de-rung von ERP-
  []
 
 [6 <./images/ERPModules.png>]
-<images/3TierArchitecture.png, id=253, 644.4075pt x 472.76625pt>
+<images/3TierArchitecture.png, id=266, 644.4075pt x 472.76625pt>
 File: images/3TierArchitecture.png Graphic file (type png)
 <use images/3TierArchitecture.png>
 Package pdftex.def Info: images/3TierArchitecture.png  used on input line 40.
 (pdftex.def)             Requested size: 284.52756pt x 208.74638pt.
- [7 <./images/3TierArchitecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-\T1/lmr/m/n/10.95 zu Sys-te-m-aus-fäl-len füh-ren kön-nen.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-[8]
+ [7 <./images/3TierArchitecture.png>] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
-<images/TableExtenison.png, id=269, 753.81625pt x 91.34125pt>
+<images/TableExtenison.png, id=282, 753.81625pt x 91.34125pt>
 File: images/TableExtenison.png Graphic file (type png)
 <use images/TableExtenison.png>
 Package pdftex.def Info: images/TableExtenison.png  used on input line 97.
 (pdftex.def)             Requested size: 284.52756pt x 34.47588pt.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-[10 <./images/TableExtenison.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
-\T1/lmr/m/n/10.95 di-rekt in den Seiten- und Re-port-ob-jek-ten selbst de-fi-ni
-ert.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
-
- []
-
-) [11]
+[9] [10 <./images/TableExtenison.png>]) [11]
 \openout2 = `chapters/05vergleich.aux'.
 
  (chapters/05vergleich.tex
-Kapitel 5.
+Kapitel 3.
 [12
 
 
 
 ]
-<images/ObjectDesigner.png, id=291, 734.745pt x 473.51906pt>
+<images/ObjectDesigner.png, id=306, 734.745pt x 473.51906pt>
 File: images/ObjectDesigner.png Graphic file (type png)
 <use images/ObjectDesigner.png>
-Package pdftex.def Info: images/ObjectDesigner.png  used on input line 28.
-(pdftex.def)             Requested size: 369.88582pt x 238.38463pt.
-<images/TableDesigner.png, id=292, 705.38531pt x 495.35063pt>
+Package pdftex.def Info: images/ObjectDesigner.png  used on input line 31.
+(pdftex.def)             Requested size: 398.33858pt x 256.72246pt.
+ [13]
+<images/TableDesigner.png, id=312, 629.35126pt x 502.87875pt>
 File: images/TableDesigner.png Graphic file (type png)
 <use images/TableDesigner.png>
-Package pdftex.def Info: images/TableDesigner.png  used on input line 38.
-(pdftex.def)             Requested size: 369.88582pt x 259.74553pt.
- [13 <./images/ObjectDesigner.png>] [14 <./images/TableDesigner.png>]
+Package pdftex.def Info: images/TableDesigner.png  used on input line 45.
+(pdftex.def)             Requested size: 412.56496pt x 329.65273pt.
+ [14 <./images/ObjectDesigner.png>] [15 <./images/TableDesigner.png>]
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 54.
+(Font)              <5> on input line 56.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 59.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/VSCode.png, id=308, 741.52031pt x 421.575pt>
+<images/VSCode.png, id=327, 741.52031pt x 421.575pt>
 File: images/VSCode.png Graphic file (type png)
 <use images/VSCode.png>
-Package pdftex.def Info: images/VSCode.png  used on input line 63.
+Package pdftex.def Info: images/VSCode.png  used on input line 68.
 (pdftex.def)             Requested size: 369.88582pt x 210.29166pt.
 
-[15 <./images/VSCode.png>] [16]
-<images/Tables.png, id=325, 723.70375pt x 395.4775pt>
+[16 <./images/VSCode.png>] [17]
+<images/Tables.png, id=344, 723.70375pt x 395.4775pt>
 File: images/Tables.png Graphic file (type png)
 <use images/Tables.png>
-Package pdftex.def Info: images/Tables.png  used on input line 85.
+Package pdftex.def Info: images/Tables.png  used on input line 90.
 (pdftex.def)             Requested size: 369.88582pt x 202.13136pt.
- [17 <./images/Tables.png>]
-<images/CALTableDesigner.png, id=332, 755.07094pt x 251.43938pt>
+ [18 <./images/Tables.png>]
+<images/CALTableDesigner.png, id=351, 755.07094pt x 251.43938pt>
 File: images/CALTableDesigner.png Graphic file (type png)
 <use images/CALTableDesigner.png>
-Package pdftex.def Info: images/CALTableDesigner.png  used on input line 109.
+Package pdftex.def Info: images/CALTableDesigner.png  used on input line 114.
 (pdftex.def)             Requested size: 369.88582pt x 123.17183pt.
- [18 <./images/CALTableDesigner.png>]
+ [19 <./images/CALTableDesigner.png>]
 Package hyperref Info: bookmark level for unknown program defaults to 0 on inpu
-t line 120.
+t line 125.
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang
 1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 122.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 127.
 
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
 
  []
 
-[20]
-<images/RequestPage.png, id=401, 448.67625pt x 456.20438pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
+
+ []
+
+[20] [21]
+<images/RequestPage.png, id=420, 448.67625pt x 456.20438pt>
 File: images/RequestPage.png Graphic file (type png)
 <use images/RequestPage.png>
-Package pdftex.def Info: images/RequestPage.png  used on input line 199.
-(pdftex.def)             Requested size: 284.52756pt x 289.31065pt.
- [21 <./images/RequestPage.png>]
-<images/xmlport.png, id=408, 1120.9378pt x 232.61906pt>
+Package pdftex.def Info: images/RequestPage.png  used on input line 208.
+(pdftex.def)             Requested size: 278.837pt x 283.52597pt.
+ [22 <./images/RequestPage.png>]
+<images/xmlport.png, id=428, 1120.9378pt x 232.61906pt>
 File: images/xmlport.png Graphic file (type png)
 <use images/xmlport.png>
-Package pdftex.def Info: images/xmlport.png  used on input line 210.
+Package pdftex.def Info: images/xmlport.png  used on input line 220.
 (pdftex.def)             Requested size: 412.56496pt x 85.61691pt.
- [22 <./images/xmlport.png>] [23] [24]
-[25] [26]
-<images/dotnetVariable.png, id=455, 434.37282pt x 310.15875pt>
+ [23 <./images/xmlport.png>] [24]
+[25] [26] [27]
+<images/dotnetVariable.png, id=474, 434.37282pt x 310.15875pt>
 File: images/dotnetVariable.png Graphic file (type png)
 <use images/dotnetVariable.png>
-Package pdftex.def Info: images/dotnetVariable.png  used on input line 298.
+Package pdftex.def Info: images/dotnetVariable.png  used on input line 306.
 (pdftex.def)             Requested size: 369.88582pt x 264.12837pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
-[27 <./images/dotnetVariable.png>]
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 328
+[28 <./images/dotnetVariable.png>]
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 336
 .
 
 ("C:\Users\naderer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[28] [29]) [30]
+[29] [30]) [31]
 \openout2 = `chapters/06tests.aux'.
 
  (chapters/06tests.tex
-Kapitel 6.
-[31
+Kapitel 4.
+[32
 
 
 
 ]
-<images/Tests-WS.png, id=550, 361.35pt x 217.5628pt>
+<images/Tests-WS.png, id=570, 398.99063pt x 239.39438pt>
 File: images/Tests-WS.png Graphic file (type png)
 <use images/Tests-WS.png>
-Package pdftex.def Info: images/Tests-WS.png  used on input line 27.
-(pdftex.def)             Requested size: 361.34912pt x 217.56227pt.
- [32 <./images/Tests-WS.png>]
-<images/Test2.png, id=561, 442.65375pt x 151.56625pt>
+Package pdftex.def Info: images/Tests-WS.png  used on input line 29.
+(pdftex.def)             Requested size: 398.33858pt x 239.01389pt.
+ [33 <./images/Tests-WS.png>]
+<images/Test2.png, id=580, 331.99031pt x 113.67468pt>
 File: images/Test2.png Graphic file (type png)
 <use images/Test2.png>
-Package pdftex.def Info: images/Test2.png  used on input line 42.
-(pdftex.def)             Requested size: 369.88582pt x 126.65796pt.
-<images/Test2NoCache.png, id=562, 367.3725pt x 206.27063pt>
+Package pdftex.def Info: images/Test2.png  used on input line 44.
+(pdftex.def)             Requested size: 327.20668pt x 112.04219pt.
+<images/Test2NoCache.png, id=581, 398.99063pt x 239.39438pt>
 File: images/Test2NoCache.png Graphic file (type png)
 <use images/Test2NoCache.png>
-Package pdftex.def Info: images/Test2NoCache.png  used on input line 52.
-(pdftex.def)             Requested size: 369.88582pt x 207.69589pt.
- [33 <./images/Test2.png>]
-<images/Test2Cache.png, id=569, 367.3725pt x 205.5178pt>
+Package pdftex.def Info: images/Test2NoCache.png  used on input line 54.
+(pdftex.def)             Requested size: 398.33858pt x 239.01389pt.
+ [34 <./images/Test2.png>]
+<images/Test2Cache.png, id=589, 398.99063pt x 240.14719pt>
 File: images/Test2Cache.png Graphic file (type png)
 <use images/Test2Cache.png>
-Package pdftex.def Info: images/Test2Cache.png  used on input line 61.
-(pdftex.def)             Requested size: 369.88582pt x 206.93788pt.
- [34 <./images/Test2NoCache.png>] [35 <./images/Test2Cache.png>] [36] [37]) [38
+Package pdftex.def Info: images/Test2Cache.png  used on input line 63.
+(pdftex.def)             Requested size: 398.33858pt x 239.76547pt.
+ [35 <./images/Test2NoCache.png>] [36 <./images/Test2Cache.png>] [37] [38]) [39
 ]
 \openout2 = `chapters/07diskussion.aux'.
 
 
 (chapters/07diskussion.tex
-Kapitel 7.
-[39
+Kapitel 5.
+[40
 
 
 
-]) [40] [41
+]) [41] [42
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
- [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (main.aux (chapters/01kurzfassung.aux)
 (chapters/02abstract.aux) (chapters/03einleitung.aux)
 (chapters/04stand-der-technik.aux) (chapters/05vergleich.aux)
 (chapters/06tests.aux) (chapters/07diskussion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: FFF94D6731352811E753232E801E9EE3;5483.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F5920056B4BC7B3F939DE96D20231C74;5228
-(rerunfilecheck)             After:  D6626949D2F6347F8FDA71D8A1DF04CD;5241.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1793,13 +1830,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26827 strings out of 492946
- 432856 string characters out of 3125378
- 1120743 words of memory out of 3000000
- 29853 multiletter control sequences out of 15000+200000
- 85159 words of font info for 70 fonts, out of 3000000 for 9000
+ 26841 strings out of 492946
+ 433694 string characters out of 3125378
+ 1122934 words of memory out of 3000000
+ 29868 multiletter control sequences out of 15000+200000
+ 76603 words of font info for 67 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 67i,12n,96p,1732b,2280s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,18n,96p,1734b,2280s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
 enc}{C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
 s1.enc}<C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
@@ -1815,12 +1852,13 @@ rams/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Users/naderer/AppData/Local
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/naderer/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/nad
 erer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/U
-sers/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb>
-<C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfding/uz
-dr.pfb>
-Output written on main.pdf (47 pages, 808396 bytes).
+sers/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
+><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt
+9.pfb><C:/Users/naderer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfd
+ing/uzdr.pfb>
+Output written on main.pdf (46 pages, 1068190 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 253 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
