@@ -1,168 +1,168 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Zielsetzung}{4}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Zielsetzung}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Grundlagen}{5}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Grundlagen}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}ERP: Definition und \IeC {\"U}bersicht}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}ERP: Definition und \IeC {\"U}bersicht}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Geschichte und Grundarchitektur Dynamics 365 Business Central}{7}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Geschichte und Grundarchitektur Dynamics 365 Business Central}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Geschichte}{7}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Geschichte}{7}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}3-Schichten Architektur}{7}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}3-Schichten Architektur}{7}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schicht 1: Die Endbenutzerschicht/Pr\IeC {\"a}sentationsschicht }{8}{figure.caption.5}% 
+\contentsline {subsubsection}{Schicht 1: Die Endbenutzerschicht/Pr\IeC {\"a}sentationsschicht }{8}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schicht 2: Die Serverschicht }{8}{figure.caption.5}% 
+\contentsline {subsubsection}{Schicht 2: Die Serverschicht }{8}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schicht 3: Die Datenbankschicht}{8}{figure.caption.5}% 
+\contentsline {subsubsection}{Schicht 3: Die Datenbankschicht}{8}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Objektarten in Business Central}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Objektarten in Business Central}{9}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Table}{9}{table.caption.6}% 
+\contentsline {paragraph}{Table}{9}{table.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{TableExtension}{9}{table.caption.6}% 
+\contentsline {paragraph}{TableExtension}{9}{table.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Page}{10}{figure.caption.7}% 
+\contentsline {paragraph}{Page}{10}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{PageExtension}{10}{figure.caption.7}% 
+\contentsline {paragraph}{PageExtension}{10}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Report}{10}{figure.caption.7}% 
+\contentsline {paragraph}{Report}{10}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Codeunit}{10}{figure.caption.7}% 
+\contentsline {paragraph}{Codeunit}{10}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Query}{11}{figure.caption.7}% 
+\contentsline {paragraph}{Query}{11}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{XMLPort}{11}{figure.caption.7}% 
+\contentsline {paragraph}{XMLPort}{11}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{MenuSuite}{11}{figure.caption.7}% 
+\contentsline {paragraph}{MenuSuite}{11}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Enum}{11}{figure.caption.7}% 
+\contentsline {paragraph}{Enum}{11}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Vergleich der erweiterungsbasierten Entwicklung zur konventionellen Codeanpassung}{12}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Vergleich der erweiterungsbasierten Entwicklung zur konventionellen Codeanpassung}{12}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Aufgabenstellung}{12}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Aufgabenstellung}{12}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{12}{section.3.1}% 
+\contentsline {paragraph}{}{12}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Entwicklungsprozess}{13}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Entwicklungsprozess}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Entwicklungsumgebung}{13}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Entwicklungsumgebung}{13}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{C/AL - Development Environment}{13}{subsection.3.2.1}% 
+\contentsline {subsubsection}{C/AL - Development Environment}{13}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{13}{subsection.3.2.1}% 
+\contentsline {paragraph}{}{13}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{figure.caption.8}% 
+\contentsline {paragraph}{}{14}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{figure.caption.8}% 
+\contentsline {paragraph}{}{14}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{15}{figure.caption.9}% 
+\contentsline {paragraph}{}{15}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{AL - Visual Studio Code}{16}{figure.caption.9}% 
+\contentsline {subsubsection}{AL - Visual Studio Code}{16}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{16}{figure.caption.9}% 
+\contentsline {paragraph}{}{16}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}{figure.caption.10}% 
+\contentsline {paragraph}{}{17}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}{figure.caption.10}% 
+\contentsline {paragraph}{}{17}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}{figure.caption.10}% 
+\contentsline {paragraph}{}{17}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Grundfunktionalit\IeC {\"a}t}{18}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Grundfunktionalit\IeC {\"a}t}{18}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{18}{figure.caption.11}% 
+\contentsline {paragraph}{}{18}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{18}{figure.caption.11}% 
+\contentsline {paragraph}{}{18}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{19}{figure.caption.11}% 
+\contentsline {paragraph}{}{19}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung der Grundfunktionalit\IeC {\"a}t in C/AL}{19}{figure.caption.11}% 
+\contentsline {subsubsection}{Implementierung der Grundfunktionalit\IeC {\"a}t in C/AL}{19}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{19}{figure.caption.11}% 
+\contentsline {paragraph}{}{19}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{19}{figure.caption.12}% 
+\contentsline {paragraph}{}{19}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{20}{lstnumber.-1.20}% 
+\contentsline {paragraph}{}{20}{lstnumber.-1.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung der Grundfunktionalit\IeC {\"a}t in AL}{21}{lstnumber.-1.20}% 
+\contentsline {subsubsection}{Implementierung der Grundfunktionalit\IeC {\"a}t in AL}{21}{lstnumber.-1.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{lstnumber.-2.22}% 
+\contentsline {paragraph}{}{21}{lstnumber.-2.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{lstnumber.-2.22}% 
+\contentsline {paragraph}{}{21}{lstnumber.-2.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{22}{lstnumber.-2.22}% 
+\contentsline {paragraph}{}{22}{lstnumber.-2.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Datentr\IeC {\"a}gerexport}{23}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Datentr\IeC {\"a}gerexport}{23}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung des Datentr\IeC {\"a}gerexports in C/AL}{23}{subsection.3.2.3}% 
+\contentsline {subsubsection}{Implementierung des Datentr\IeC {\"a}gerexports in C/AL}{23}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{23}{figure.caption.14}% 
+\contentsline {paragraph}{}{23}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung des Datentr\IeC {\"a}gerexports in AL}{24}{figure.caption.14}% 
+\contentsline {subsubsection}{Implementierung des Datentr\IeC {\"a}gerexports in AL}{24}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{24}{figure.caption.14}% 
+\contentsline {paragraph}{}{24}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{24}{figure.caption.14}% 
+\contentsline {paragraph}{}{24}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{24}{figure.caption.14}% 
+\contentsline {paragraph}{}{24}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Reporting}{25}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.4}Reporting}{25}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{25}{subsection.3.2.4}% 
+\contentsline {paragraph}{}{25}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{25}{subsection.3.2.4}% 
+\contentsline {paragraph}{}{25}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Webservice-Anbindung}{26}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.5}Webservice-Anbindung}{26}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung der Webservice-Anbindung in C/AL}{26}{subsection.3.2.5}% 
+\contentsline {subsubsection}{Implementierung der Webservice-Anbindung in C/AL}{26}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{26}{subsection.3.2.5}% 
+\contentsline {paragraph}{}{26}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{28}{lstnumber.-3.20}% 
+\contentsline {paragraph}{}{28}{lstnumber.-3.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implementierung der Webservice-Anbindung in AL}{28}{figure.caption.15}% 
+\contentsline {subsubsection}{Implementierung der Webservice-Anbindung in AL}{28}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{29}{figure.caption.15}% 
+\contentsline {paragraph}{}{29}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{30}{lstnumber.-4.31}% 
+\contentsline {paragraph}{}{30}{lstnumber.-4.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Evaluierung \& Diskussion}{32}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Evaluierung \& Diskussion}{32}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}.NET Klassenbibliothek und AL-Sprachkonstrukte}{32}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}.NET Klassenbibliothek und AL-Sprachkonstrukte}{32}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Testaufbau}{32}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Testaufbau}{32}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Messergebnisse: Erstellung von Http-Anfragen}{33}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.2}Messergebnisse: Erstellung von Http-Anfragen}{33}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Tabellenanpassung und Tabellenerweiterung}{34}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Tabellenanpassung und Tabellenerweiterung}{34}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{34}{figure.caption.18}% 
+\contentsline {paragraph}{}{34}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Codeanpassung und ereignisorientierte Codeerweiterung}{36}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Codeanpassung und ereignisorientierte Codeerweiterung}{36}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ausf\IeC {\"u}hrungsreihenfolge}{37}{lstnumber.-6.5}% 
+\contentsline {paragraph}{Ausf\IeC {\"u}hrungsreihenfolge}{37}{lstnumber.-6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zugriffseinschr\IeC {\"a}nkung}{37}{lstnumber.-6.5}% 
+\contentsline {paragraph}{Zugriffseinschr\IeC {\"a}nkung}{37}{lstnumber.-6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Source Code Management und CI/CD}{38}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}Source Code Management und CI/CD}{38}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section.4.4}% 
+\contentsline {paragraph}{}{38}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Zusammenfassung \& Ausblick}{40}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Zusammenfassung \& Ausblick}{40}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Zusammenfassung}{40}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Zusammenfassung}{40}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Ausblick}{40}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Ausblick}{40}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellenverzeichnis}{42}{chapter*.21}% 
+\contentsline {chapter}{Quellenverzeichnis}{42}{chapter*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{42}{section*.22}% 
+\contentsline {section}{Literatur}{42}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Online-Quellen}{43}{section*.23}% 
+\contentsline {section}{Online-Quellen}{43}{section*.23}

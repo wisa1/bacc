@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,7 +21,7 @@
   \datalist[entry]{nty/global//global/global}
     \entry{DuplagaMarzie2003}{article}{}
       \name{author}{2}{}{%
-        {{hash=59ba0b99b7a8a52d8cacd96d40ce784a}{%
+        {{hash=2c067ca04dff06ff70cfdc4b74422694}{%
            family={A.\bibnamedelimi Duplaga},
            familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod},
            given={Edward},
@@ -32,12 +32,12 @@
            given={Marzie},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{b609183f2087b69e4a6b8302cf236581}
-      \strng{fullhash}{b609183f2087b69e4a6b8302cf236581}
-      \strng{bibnamehash}{b609183f2087b69e4a6b8302cf236581}
-      \strng{authorbibnamehash}{b609183f2087b69e4a6b8302cf236581}
-      \strng{authornamehash}{b609183f2087b69e4a6b8302cf236581}
-      \strng{authorfullhash}{b609183f2087b69e4a6b8302cf236581}
+      \strng{namehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{fullhash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{bibnamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authorbibnamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authornamehash}{ee11ce1cb6da4e86a0dda81a49473590}
+      \strng{authorfullhash}{ee11ce1cb6da4e86a0dda81a49473590}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
@@ -62,18 +62,18 @@
     \endentry
     \entry{WongTein2003}{article}{}
       \name{author}{1}{}{%
-        {{hash=8f6c7d8018c97930341c8c93bdb91e53}{%
+        {{hash=a2eafec0efe8b60e2cfe36a2170e315f}{%
            family={Bernard\bibnamedelima Wong},
            familyi={B\bibinitperiod\bibinitdelim W\bibinitperiod},
            given={David\bibnamedelima Tein},
            giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{8f6c7d8018c97930341c8c93bdb91e53}
-      \strng{fullhash}{8f6c7d8018c97930341c8c93bdb91e53}
-      \strng{bibnamehash}{8f6c7d8018c97930341c8c93bdb91e53}
-      \strng{authorbibnamehash}{8f6c7d8018c97930341c8c93bdb91e53}
-      \strng{authornamehash}{8f6c7d8018c97930341c8c93bdb91e53}
-      \strng{authorfullhash}{8f6c7d8018c97930341c8c93bdb91e53}
+      \strng{namehash}{a2eafec0efe8b60e2cfe36a2170e315f}
+      \strng{fullhash}{a2eafec0efe8b60e2cfe36a2170e315f}
+      \strng{bibnamehash}{a2eafec0efe8b60e2cfe36a2170e315f}
+      \strng{authorbibnamehash}{a2eafec0efe8b60e2cfe36a2170e315f}
+      \strng{authornamehash}{a2eafec0efe8b60e2cfe36a2170e315f}
+      \strng{authorfullhash}{a2eafec0efe8b60e2cfe36a2170e315f}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
@@ -93,6 +93,32 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/229022123_Critical_Success_Factors_for_ERP_Projects
       \endverb
+    \endentry
+    \entry{imcontrolling}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebdb177540ef4b3e1ce2aaa419e8e2b3}{%
+           family={Birgit\bibnamedelima Feldbauer-Durstmüller},
+           familyi={B\bibinitperiod\bibinitdelim F\bibinithyphendelim D\bibinitperiod},
+           given={Bernhard\bibnamedelima Gärtner},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Verlag für Controllingwissen}%
+      }
+      \strng{namehash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \strng{fullhash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \strng{bibnamehash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \strng{authorbibnamehash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \strng{authornamehash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \strng{authorfullhash}{ebdb177540ef4b3e1ce2aaa419e8e2b3}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Controller Magazin}
+      \field{month}{07}
+      \field{title}{Controlling und ERP-Systeme: Aktuelle Ergebnisse der eingesetzten ERP-Systeme im Controlling in {Ö}sterreich}
+      \field{year}{2013}
     \endentry
     \entry{BrummelPatterns2015}{book}{}
       \name{author}{1}{}{%
@@ -261,6 +287,45 @@
       \verb 10.2991/itmr.2015.5.2.2
       \endverb
     \endentry
+    \entry{KahlertGiza2016}{book}{}
+      \name{author}{2}{}{%
+        {{hash=03f252185fe4e0b7bab18cf5ca6a41db}{%
+           family={Kahlert},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dbb859247b278f99eef4d6560534b960}{%
+           family={Giza},
+           familyi={G\bibinitperiod},
+           given={Kay},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft Press}%
+      }
+      \strng{namehash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \strng{fullhash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \strng{bibnamehash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \strng{authorbibnamehash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \strng{authornamehash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \strng{authorfullhash}{cd09caca776fa3f2ae4d7f607b1cfe76}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visual Studio Code Tips and Tricks}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \endverb
+    \endentry
     \entry{freddysblog}{online}{}
       \name{author}{1}{}{%
         {{hash=79dd51ec810326f43506e2f020de7805}{%
@@ -304,7 +369,6 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
@@ -334,7 +398,6 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
@@ -364,7 +427,6 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
@@ -384,7 +446,7 @@
     \endentry
     \entry{doi:10.1002/smr.239}{article}{}
       \name{author}{3}{}{%
-        {{hash=214d4b6802de2b4291892a10aaa39450}{%
+        {{hash=84df95f8537d4731a4bf5ed4b47d225a}{%
            family={Nah},
            familyi={N\bibinitperiod},
            given={Fiona\bibnamedelima Fui-Hoon},
@@ -400,12 +462,12 @@
            given={Teuta},
            giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{55bb34963e90e4a81a7ca371d8478f8a}
-      \strng{fullhash}{55bb34963e90e4a81a7ca371d8478f8a}
-      \strng{bibnamehash}{55bb34963e90e4a81a7ca371d8478f8a}
-      \strng{authorbibnamehash}{55bb34963e90e4a81a7ca371d8478f8a}
-      \strng{authornamehash}{55bb34963e90e4a81a7ca371d8478f8a}
-      \strng{authorfullhash}{55bb34963e90e4a81a7ca371d8478f8a}
+      \strng{namehash}{44e22911dd75b08427d45461991e77ef}
+      \strng{fullhash}{44e22911dd75b08427d45461991e77ef}
+      \strng{bibnamehash}{44e22911dd75b08427d45461991e77ef}
+      \strng{authorbibnamehash}{44e22911dd75b08427d45461991e77ef}
+      \strng{authornamehash}{44e22911dd75b08427d45461991e77ef}
+      \strng{authorfullhash}{44e22911dd75b08427d45461991e77ef}
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
@@ -489,6 +551,58 @@
       \verb https://robertostefanettinavblog.com/2019/04/01/goodbay-to-c-side-and-windows-client/
       \endverb
     \endentry
+    \entry{Sternad2013SuccessFF}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=be354865d21d9a752963aca228311475}{%
+           family={Sternad},
+           familyi={S\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57082fe465f47c899f8971c1919a09d4}{%
+           family={Bobek},
+           familyi={B\bibinitperiod},
+           given={Samo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec29ebcdeecf8b72759125c11539aaed}
+      \strng{fullhash}{ec29ebcdeecf8b72759125c11539aaed}
+      \strng{bibnamehash}{ec29ebcdeecf8b72759125c11539aaed}
+      \strng{authorbibnamehash}{ec29ebcdeecf8b72759125c11539aaed}
+      \strng{authornamehash}{ec29ebcdeecf8b72759125c11539aaed}
+      \strng{authorfullhash}{ec29ebcdeecf8b72759125c11539aaed}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Integrated Enterprise Systems}
+      \field{title}{Success Factors for Dynamics NAV Solution Implementation : What Matters and How}
+      \field{year}{2012}
+    \endentry
+    \entry{Stryk2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bb876c070c4a63acbb77e971d4ced112}{%
+           family={Stryk},
+           familyi={S\bibinitperiod},
+           given={Jörg\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Books on Demand}%
+      }
+      \strng{namehash}{bb876c070c4a63acbb77e971d4ced112}
+      \strng{fullhash}{bb876c070c4a63acbb77e971d4ced112}
+      \strng{bibnamehash}{bb876c070c4a63acbb77e971d4ced112}
+      \strng{authorbibnamehash}{bb876c070c4a63acbb77e971d4ced112}
+      \strng{authornamehash}{bb876c070c4a63acbb77e971d4ced112}
+      \strng{authorfullhash}{bb876c070c4a63acbb77e971d4ced112}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The NAV/SQL Performance Field Guide}
+      \field{year}{2014}
+    \endentry
     \entry{studebaker2007programming}{book}{}
       \name{author}{1}{}{%
         {{hash=57c48d89d6af23f20a1fad5ee632399e}{%
@@ -513,38 +627,36 @@
       \field{title}{Programming Microsoft Dynamics NAV}
       \field{year}{2007}
     \endentry
-    \entry{KahlertGiza2016}{book}{}
+    \entry{waldo2019}{online}{}
       \name{author}{1}{}{%
-        {{hash=a2ea41a595724940bd247fa62b0ed1d0}{%
-           family={Tobias\bibnamedelima Kahlert},
-           familyi={T\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Kay\bibnamedelima Giza},
-           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=79dbd2feee0749009e0a276375c16e13}{%
+           family={Wauters},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Microsoft Press}%
-      }
-      \strng{namehash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \strng{fullhash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \strng{bibnamehash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \strng{authorbibnamehash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \strng{authornamehash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \strng{authorfullhash}{a2ea41a595724940bd247fa62b0ed1d0}
-      \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \strng{namehash}{79dbd2feee0749009e0a276375c16e13}
+      \strng{fullhash}{79dbd2feee0749009e0a276375c16e13}
+      \strng{bibnamehash}{79dbd2feee0749009e0a276375c16e13}
+      \strng{authorbibnamehash}{79dbd2feee0749009e0a276375c16e13}
+      \strng{authornamehash}{79dbd2feee0749009e0a276375c16e13}
+      \strng{authorfullhash}{79dbd2feee0749009e0a276375c16e13}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Visual Studio Code Tips and Tricks}
+      \field{month}{07}
+      \field{title}{Developing Business Central Extensions/Apps in Team}
       \field{urlday}{25}
       \field{urlmonth}{5}
       \field{urlyear}{2019}
-      \field{year}{2016}
+      \field{year}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \verb http://www.waldo.be/2018/07/11/developing-business-central-extensionsapps-in-team/
       \endverb
       \verb{url}
-      \verb https://www.microsoft.com/germany/techwiese/aktionen/visual-studio-code-ebook-download.aspx
+      \verb http://www.waldo.be/2018/07/11/developing-business-central-extensionsapps-in-team/
       \endverb
     \endentry
   \enddatalist
